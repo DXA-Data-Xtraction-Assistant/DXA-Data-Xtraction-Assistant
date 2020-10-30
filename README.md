@@ -68,9 +68,9 @@ A user interface will appear when you double click and run this application ([Fi
 * The Hologic button works for Horizon model with Apex software v5.5
 * The Norland button works for both ELITE and XR-800 models, both of which use the same Illuminatus v 4.7.5 software.
 * The GE button navigates to a new page ([Figure 3: User Interface – GE scanners](#GE-Scanner)). 
-** The MG button supports GE Lunar Prodigy enCORE software v12, 
-** The Lunar Prodigy button supports enCORE v.16
-** The iDXA button works for enCORE 17 and 18. 
+	* The MG button supports GE Lunar Prodigy enCORE software v12, 
+	* The Lunar Prodigy button supports enCORE v.16
+	* The iDXA button works for enCORE 17 and 18. 
 
 ## Path Setting
 A user interface will appear when you double click and run this application ([Figure 2: Input Interface – Selecting Input and Output Paths](#Path-Setting)). The input folder can be located anywhere on your computer or in an accessible cloud storage location.  This input folder should be the folder that contains all DXA “.xps” format outputs. After the DXA Data Xtraction Assistant processes these files, the output “.csv” files will be saved in the selected output folder. 
