@@ -31,7 +31,7 @@ A software used to convert DXA output from xps format into csv files.
 ## Installation
 The DXA Data Xtraction Assistant is a standalone application constructed by Python 3.7, which does not require installation. Just double click to run. It may take couple of minutes to load, the first time it is used. 
 ## DXA Outputs
-The objective of the DXA Data Xtraction Assistant is to automate conversion for DXA output with “.xps” format into “.csv” files. Input files should be named as following:
+The objective of the DXA Data Xtraction Assistant is to automate conversion for DXA output with “.xps” or ".pdf" format into “.csv” files. Input files should be named as following:
 (Patient ID)\_(Number of Visit)\_(Scan Type).xps
 * Patient ID: used to index patients, which must be unique and identical for each patient, and composed of only letters and numbers. There is no length limit. 
 * Number of Visit: a number which denotes the ith visit of a patient. This must be a number but there is no length limit for this number. 
@@ -44,7 +44,9 @@ The objective of the DXA Data Xtraction Assistant is to automate conversion for 
 |BC|Body Composition|
 |BCext|Body Composition Extension|
 |Bone|Total Body Bone|
+|Boneext|Total Body Bone Extension|
 |LS|Lumbar Spine|
+|LSext|Lumbar Spine Extension|
 |DH|Dual Hip|
 |DHext|Dual Hip Extension|
 |Radius|Radius Scan|
@@ -59,6 +61,17 @@ For example, a patient indexed as SSSH0001 went for a DXA scan at the 2nd time, 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 # Usage
 The DXA Data Xtraction Assistant allows users to choose the input and output file paths. It also allows users to customize the output DXA data, to streamline “.csv” file outputs. In this section, we will introduce the User Interface of the Converter.
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+## Type of DXA Scanner
+A user interface will appear when you double click and run this application ([Figure 2: User Interface – Selecting Type of DXA Scanners](#DXA-Scanner)). Three DXA manufactures, Hologic, GE, and Norland are supported. 
+* The Hologic button works for Horizon model with Apex software v5.5
+* The Norland button works for both ELITE and XR-800 models, both of which use the same Illuminatus v 4.7.5 software.
+* The GE button navigates to a new page ([Figure 3: User Interface – GE scanners](#GE-Scanner)). 
+** The MG button supports GE Lunar Prodigy enCORE software v12, 
+** The Lunar Prodigy button supports enCORE v.16
+** The iDXA button works for enCORE 17 and 18. 
+
 ## Path Setting
 A user interface will appear when you double click and run this application ([Figure 2: Input Interface – Selecting Input and Output Paths](#Path-Setting)). The input folder can be located anywhere on your computer or in an accessible cloud storage location.  This input folder should be the folder that contains all DXA “.xps” format outputs. After the DXA Data Xtraction Assistant processes these files, the output “.csv” files will be saved in the selected output folder. 
 * Click the Input Folder and Output Folder buttons to select the file path for these locations. 
