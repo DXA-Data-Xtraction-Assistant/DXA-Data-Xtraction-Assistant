@@ -63,25 +63,26 @@ For example, a patient indexed as SSSH0001 went for a DXA scan at the 2nd time, 
 The DXA Data Xtraction Assistant allows users to choose the input and output file paths. It also allows users to customize the output DXA data, to streamline “.csv” file outputs. In this section, we will introduce the User Interface of the Converter.
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-## Type of DXA Scanner
+## Select Type of DXA Scanner
 A user interface will appear when you double click and run this application ([Figure 2: User Interface – Selecting Type of DXA Scanners](#DXA-Scanner)). Three DXA manufactures, Hologic, GE, and Norland are supported. 
 * The Hologic button works for Horizon model with Apex software v5.5
 * The Norland button works for both ELITE and XR-800 models, both of which use the same Illuminatus v 4.7.5 software.
 * The GE button navigates to a new page ([Figure 3: User Interface – GE scanners](#GE-Scanner)). 
 	* The MG button supports GE Lunar Prodigy enCORE software v12, 
 	* The Lunar Prodigy button supports enCORE v.16
-	* The iDXA button works for enCORE 17 and 18. 
+	* The iDXA button works for enCORE v17 and 18. 
 
-## Path Setting
-A user interface will appear when you double click and run this application ([Figure 2: Input Interface – Selecting Input and Output Paths](#Path-Setting)). The input folder can be located anywhere on your computer or in an accessible cloud storage location.  This input folder should be the folder that contains all DXA “.xps” format outputs. After the DXA Data Xtraction Assistant processes these files, the output “.csv” files will be saved in the selected output folder. 
+## Select Input and Output Paths
+After selecting the type of DXA scanner, users can select the input and output folders ([Figure 4: Input Interface – Selecting Input and Output Paths](#Path-Setting)). 
+The input folder should be the folder that contains all DXA outputs (see [DXA Outputs](#DXA-Outputs)). The output folder is the folder where the output “.csv” files will be saved. Both input and output folders can be located anywhere on your computer or in an accessible cloud storage location. 
+
 * Click the Input Folder and Output Folder buttons to select the file path for these locations. 
 * Once both of these have been assigned, click the Transform button.  This will start the DXA Data Xtraction Assistant conversion process. 
-* Repeat the steps above, for each folder for which you want DXA output converted, until all needed xps files are converted.
-* Click Next Step to enter the next process.
+* Click Step 2 to enter the next process.
 
-![Figure 2: Input Interface – Selecting Input and Output Paths](/FIG/FIG2.png)
+![Figure 4: Input Interface – Selecting Input and Output Paths](/FIG/FIG2.png)
 
-*Figure 2: Input Interface – Selecting Input and Output Paths*
+*Figure 4: Input Interface – Selecting Input and Output Paths*
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 ## Scan Type Selection
