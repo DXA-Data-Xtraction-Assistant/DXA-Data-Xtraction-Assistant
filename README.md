@@ -954,7 +954,6 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|TotalRLean	|Right Total Lean Mass (g)|
 |	|TotalRBMC	|Right Total Bone Mineral Content (g)|
 |	|TotalRTotalMass	|Right Total Total Mass (kg)|
-
 |	|ArmsTissuePerFat	|Arms Tissue Fat Percent(%)|
 |	|ArmsRegPerFat	|Arms Region Fat Percent(%)|
 |	|ArmsTissue	|Arms Tissue Mass (g)|
@@ -997,12 +996,12 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|TotalLean	|Total Lean Mass (g)|
 |	|TotalBMC	|Total Bone Mineral Content (g)|
 |	|TotalMass	|Total Body Mass (kg)|
-
-
 |Lumbar Spine	|L1L4BMC	|L1-L4 Bone Mineral Content (g)|
 |	|L1L4BMD	|L1-L4 Areal Bone Mineral Density (g/cm2)|
 |	|L1L4TScr	|L1-L4 T-score|
 |	|L1L4ZScr	|L1-L4 Z-score|
+|	|L1L4Width	|L1-L4 Width|
+|	|L1L4Height	|L1-L4 Height|
 |Total Hip Ext  |LFNBMC	|Left Femoral Neck Bone Mineral Content (g)|
 |	|LFNBMD	|Left Femoral Neck Areal Bone Mineral Density (g/cm2)|
 |	|LFNTScr	|Left Femoral Neck T-score|
@@ -1030,9 +1029,39 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|MeanTHTScr	|Mean Total Hip Neck T-score|
 |	|MeanTHBMC	|Mean Total Hip Neck Bone Mineral Content (g)|
 |	|MeanTHBMD	|Mean Total Hip Neck Areal Bone Mineral Density (g/cm2)|
-|Radius Scan |Rad1/3BMD |Third-distal Areal Bone Mineral Density (g/cm2)|
-| |Rad1/3TScr |Third-distal  T-score|
-| |Rad1/3ZScr |Third-distal  Z-score|
-
-					
+|Radius Scan |Rad1/3Area	|Third-distal Area (cm2)|
+| |RadUDBMD |Ultradistal Areal Bone Mineral Density (g/cm2)|
+| |RadUDBMC |Ultradistal Bone Mineral Content (g)|
+| |RadUDArea	|Ultradistal Area (cm2)|
+| |UlnaUDBMD |Ultradistal Ulna Areal Bone Mineral Density (g/cm2)|
+| |UlnaUDBMC |Ultradistal Ulna Bone Mineral Content (g)|
+| |UlnaUDArea	|Ultradistal Ulna Area (cm2)|
+| |Rad1/3BMD |Third-distal Areal Bone Mineral Density (g/cm2)|
+| |Rad1/3BMC |Third-distal Bone Mineral Content (g)|
+| |Rad1/3Area	|Third-distal Area (cm2)|
+| |Ulna1/3BMD |Third-distal Ulna Areal Bone Mineral Density (g/cm2)|
+| |Ulna1/3BMC |Third-distal Ulna Bone Mineral Content (g)|
+| |Ulna1/3Area	|Third-distal Ulna Area (cm2)|
+| |BothUDBMD |Ultradistal Radius + Ulna Areal Bone Mineral Density (g/cm2)|
+| |BothUDBMC |Ultradistal Radius + Ulna Bone Mineral Content (g)|
+| |BothUDArea	|Ultradistal Radius + Ulna Area (cm2)|
+| |Both1/3BMD |Third-distal Radius + Ulna Areal Bone Mineral Density (g/cm2)|
+| |Both1/3BMC |Third-distal Radius + Ulna Bone Mineral Content (g)|
+| |Both1/3Area	|Third-distal Radius + Ulna Area (cm2)|
+| |RadTotalBMD |Total Areal Bone Mineral Density (g/cm2)|
+| |RadTotalBMC |Total Bone Mineral Content (g)|
+| |RadTotalArea	|Total Area (cm2)|
+| |UlnaTotalBMD |Total Ulna Areal Bone Mineral Density (g/cm2)|
+| |UlnaTotalBMC |Total Ulna Bone Mineral Content (g)|
+| |UlnaTotalArea	|Total Ulna Area (cm2)|
+| |BothTotalBMD |Total Radius + Ulna Areal Bone Mineral Density (g/cm2)|
+| |BothTotalBMC |Total Radius + Ulna Bone Mineral Content (g)|
+| |BothTotalArea	|Total Radius + Ulna Area (cm2)|
+| |RadUDTScr |Ultradistal T-score|
+| |RadUDZScr |Ultradistal Z-score|
+| |Rad1/3TScr |Third-distal T-score|
+| |Rad1/3ZScr |Third-distal Z-score|
+| |RadTotalTScr |Total T-score|
+| |RadTotalZScr |Total Z-score|
+		
 
