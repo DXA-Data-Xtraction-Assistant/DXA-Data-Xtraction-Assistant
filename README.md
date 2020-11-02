@@ -131,40 +131,6 @@ The “Demographic.csv” file is a default file which is automatically generate
 |Height	|Patient Height, as it appears in the DXA scan |
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Hip
-If the Total Hip option was selected, a “TotalHip.csv” would be generated in the “SingleType” subfolder of the output file path ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 3 introduced the meaning of each column.
-
-*Table 3: Total Hip output*
-
-|Variables	|Explanation|
-|---|---|
-|Patients_ID	|Patient ID, from the input file name|
-|Patients_Visit	|Visit Number, from the input file name|
-|Region	|Region of DXA measurement|
-|Area_cm2	|Area (cm2)|
-|BMC_g	|Bone Mineral Content (g)|
-|BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|T_score	|T-score|
-|Z_score	|Z-score|
-
-###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Lumbar Spine
-If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
-
-*Table 4: Lumbar Spine output*
-
-|Variables	|Explanation|
-|---|---|
-|Patients_ID	|Patient ID, from the input file name|
-|Patients_Visit	|Visit Number, from the input file name|
-|Region	|Region of DXA measurement|
-|Area_cm2	|Area (cm2)|
-|BMC_g	|Bone Mineral Content (g)|
-|BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|T_score	|T-score|
-|Z_score	|Z-score|
-
-###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### Total Body Bone
 If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 5 introduced the meaning of each column.
 
@@ -181,23 +147,6 @@ If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be g
 |T_score	|T-score|
 |Z_score	|Z-score|
 
-###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Body Ext
-If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 6 introduced the meaning of each column.
-
-*Table 6: Total Body Ext output*
-
-|Variables	|Explanation|
-|---|---|
-|Patients_ID	|Patient ID, from the input file name|
-|Patients_Visit	|Visit Number, from the input file name|
-|Region	|Region of DXA measurement|
-|BMC_g	|Bone Mineral Content (g)|
-|Fat_Mass_g	|Fat Mass (g)|
-|Lean_Mass_g	|Lean Mass (g)|
-|Lean_BMC_g	|Lean Bone Mineral Content (g)|
-|Total_Mass_g	|Total Mass (g)|
-|Fat_Percent	|Fat Percent (%)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### Total Body Composition
@@ -245,6 +194,59 @@ Table 9 introduced the meaning of each column for “TotalBodyComp_Lean.csv”
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+#### Total Body Ext
+If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 6 introduced the meaning of each column.
+
+*Table 6: Total Body Ext output*
+
+|Variables	|Explanation|
+|---|---|
+|Patients_ID	|Patient ID, from the input file name|
+|Patients_Visit	|Visit Number, from the input file name|
+|Region	|Region of DXA measurement|
+|BMC_g	|Bone Mineral Content (g)|
+|Fat_Mass_g	|Fat Mass (g)|
+|Lean_Mass_g	|Lean Mass (g)|
+|Lean_BMC_g	|Lean Bone Mineral Content (g)|
+|Total_Mass_g	|Total Mass (g)|
+|Fat_Percent	|Fat Percent (%)|
+
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+#### Lumbar Spine
+If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
+
+*Table 4: Lumbar Spine output*
+
+|Variables	|Explanation|
+|---|---|
+|Patients_ID	|Patient ID, from the input file name|
+|Patients_Visit	|Visit Number, from the input file name|
+|Region	|Region of DXA measurement|
+|Area_cm2	|Area (cm2)|
+|BMC_g	|Bone Mineral Content (g)|
+|BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
+|T_score	|T-score|
+|Z_score	|Z-score|
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+#### Total Hip Ext
+If the Total Hip Ext option was selected, a “TotalHipExt.csv” would be generated in the “SingleType” subfolder of the output file path ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 3 introduced the meaning of each column.
+
+*Table 3: Total Hip output*
+
+|Variables	|Explanation|
+|---|---|
+|Patients_ID	|Patient ID, from the input file name|
+|Patients_Visit	|Visit Number, from the input file name|
+|Region	|Region of DXA measurement|
+|Area_cm2	|Area (cm2)|
+|BMC_g	|Bone Mineral Content (g)|
+|BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
+|T_score	|T-score|
+|Z_score	|Z-score|
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### Radius Scan
 If the Radius Scan option was selected, a “Radius.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 10 introduced the meaning of each column.
 
@@ -277,37 +279,6 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|Sex	|Patient sex|
 |	|Ethnicity	|Patient Ethnicity|
 |	|Height	|Patient Height|
-|Total Hip	|LFNBMC	|Left Femoral Neck Bone Mineral Content (g)|
-|	|LFNBMD	|Left Femoral Neck Areal Bone Mineral Density (g/cm2)|
-|	|LFNTScr	|Left Femoral Neck T-score|
-|	|LFNZScr	|Left Femoral Neck Z-score|
-|	|RFNBMC	|Right Femoral Neck Bone Mineral Content (g)|
-|	|RFNBMD	|Right Femoral Neck Areal Bone Mineral Density (g/cm2)|
-|	|RFNTScr	|Right Femoral Neck T-score|
-|	|RFNZScr	|Right Femoral Neck Z-score|
-|	|LGTBMC	|Left Greater Trochanter Neck Bone Mineral Content (g)|
-|	|LGTBMD	|Left Greater Trochanter Neck Areal Bone Mineral Density (g/cm2)|
-|	|LGTTScr	|Left Greater Trochanter Neck T-score|
-|	|LGTZScr	|Left Greater Trochanter Neck Z-score|
-|	|RGTBMC	|Right Greater Trochanter Neck Bone Mineral Content (g)|
-|	|RGTBMD	|Right Greater Trochanter Neck Areal Bone Mineral Density (g/cm2)|
-|	|RGTTScr	|Right Greater Trochanter Neck T-score|
-|	|RGTZScr	|Right Greater Trochanter Neck Z-score|
-|	|LTHBMC	|Left Total Hip Neck Bone Mineral Content (g)|
-|	|LTHBMD	|Left Total Hip Neck Areal Bone Mineral Density (g/cm2)|
-|	|LTHTScr	|Left Total Hip Neck T-score|
-|	|LTHZScr	|Left Total Hip Neck Z-score|
-|	|RTHBMC	|Right Total Hip Neck Bone Mineral Content (g)|
-|	|RTHBMD	|Right Total Hip Neck Areal Bone Mineral Density (g/cm2)|
-|	|RTHTScr	|Right Total Hip Neck T-score|
-|	|RTHZScr	|Right Total Hip Neck Z-score|
-|	|MeanTHTScr	|Mean Total Hip Neck T-score|
-|	|MeanTHBMC	|Mean Total Hip Neck Bone Mineral Content (g)|
-|	|MeanTHBMD	|Mean Total Hip Neck Areal Bone Mineral Density (g/cm2)|
-|Lumbar Spine	|L1L4BMC	|L1-L4 Bone Mineral Content (g)|
-|	|L1L4BMD	|L1-L4 Areal Bone Mineral Density (g/cm2)|
-|	|L1L4TScr	|L1-L4 T-score|
-|	|L1L4ZScr	|L1-L4 Z-score|
 |Total Body Bone	|LArmBMD	|Left Arm Areal Bone Mineral Density (g/cm2)|
 |	|RArmBMD	|Right Arm Areal Bone Mineral Density (g/cm2)|
 |	|LRibBMD	|Left Rib Areal Bone Mineral Density (g/cm2)|
@@ -318,6 +289,20 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|TotBMD	|Total Body Areal Bone Mineral Density (g/cm2)|
 |	|TotTScr	|Total Body T-score|
 |	|TotZScr	|Total Body Z-score|
+|Total Body Composition - Composition	|AndroidFM	|Android Fat Mass (g)|
+|	|AndroidLM+BMC	|Android Mass (g) + Bone Mineral Content (g)|
+|	|AndroidTotM	|Android Total Mass (g)|
+|	|AndroidBF%	|Android Body Fat (%)|
+|	|GynoidFM	|Gynoid Fat Mass (g)|
+|	|GynoidLM+BMC	|Gynoid Mass (g) + Bone Mineral Content (g)|
+|	|GynoidTotM	|Gynoid Total Mass (g)|
+|	|GynoidBF%	|Gynoid Body Fat (%)|
+|Total Body Composition - Adipose	|A/G	|Android/Gynoid Ratio|
+|	|VATm	|Est. VAT Mass (g)|
+|	|VATv	|Est. VAT Volume (cm2)|
+|	|VATa	|Est. VAT Area (cm2)|
+|Total Body Composition - Lean	|Ln/Ht	|Lean/Height² (kg/m2)|
+|	|AppLn/Ht	|Appen. Lean/Height² (kg/m²)|
 |Total Body Ext	|LArmBMC	|Left Arm Bone Mineral Content (g)|
 |	|LArmFM*	|Left Arm Fat Mass (g)|
 |	|LArmLM	|Left Arm Lean Mass (g)|
@@ -366,20 +351,37 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|TotalLM+BMC*	|Total Lean Mass (g) + Bone Mineral Content (g)|
 |	|TotalTotM*	|Total Total Mass (g)|
 |	|TotalBF%*	|Total Body Fat (%)|
-|Total Body Composition - Composition	|AndroidFM	|Android Fat Mass (g)|
-|	|AndroidLM+BMC	|Android Mass (g) + Bone Mineral Content (g)|
-|	|AndroidTotM	|Android Total Mass (g)|
-|	|AndroidBF%	|Android Body Fat (%)|
-|	|GynoidFM	|Gynoid Fat Mass (g)|
-|	|GynoidLM+BMC	|Gynoid Mass (g) + Bone Mineral Content (g)|
-|	|GynoidTotM	|Gynoid Total Mass (g)|
-|	|GynoidBF%	|Gynoid Body Fat (%)|
-|Total Body Composition - Adipose	|A/G	|Android/Gynoid Ratio|
-|	|VATm	|Est. VAT Mass (g)|
-|	|VATv	|Est. VAT Volume (cm2)|
-|	|VATa	|Est. VAT Area (cm2)|
-|Total Body Composition - Lean	|Ln/Ht	|Lean/Height² (kg/m2)|
-|	|AppLn/Ht	|Appen. Lean/Height² (kg/m²)|
+|Lumbar Spine	|L1L4BMC	|L1-L4 Bone Mineral Content (g)|
+|	|L1L4BMD	|L1-L4 Areal Bone Mineral Density (g/cm2)|
+|	|L1L4TScr	|L1-L4 T-score|
+|	|L1L4ZScr	|L1-L4 Z-score|
+|Total Hip Ext  |LFNBMC	|Left Femoral Neck Bone Mineral Content (g)|
+|	|LFNBMD	|Left Femoral Neck Areal Bone Mineral Density (g/cm2)|
+|	|LFNTScr	|Left Femoral Neck T-score|
+|	|LFNZScr	|Left Femoral Neck Z-score|
+|	|RFNBMC	|Right Femoral Neck Bone Mineral Content (g)|
+|	|RFNBMD	|Right Femoral Neck Areal Bone Mineral Density (g/cm2)|
+|	|RFNTScr	|Right Femoral Neck T-score|
+|	|RFNZScr	|Right Femoral Neck Z-score|
+|	|LGTBMC	|Left Greater Trochanter Neck Bone Mineral Content (g)|
+|	|LGTBMD	|Left Greater Trochanter Neck Areal Bone Mineral Density (g/cm2)|
+|	|LGTTScr	|Left Greater Trochanter Neck T-score|
+|	|LGTZScr	|Left Greater Trochanter Neck Z-score|
+|	|RGTBMC	|Right Greater Trochanter Neck Bone Mineral Content (g)|
+|	|RGTBMD	|Right Greater Trochanter Neck Areal Bone Mineral Density (g/cm2)|
+|	|RGTTScr	|Right Greater Trochanter Neck T-score|
+|	|RGTZScr	|Right Greater Trochanter Neck Z-score|
+|	|LTHBMC	|Left Total Hip Neck Bone Mineral Content (g)|
+|	|LTHBMD	|Left Total Hip Neck Areal Bone Mineral Density (g/cm2)|
+|	|LTHTScr	|Left Total Hip Neck T-score|
+|	|LTHZScr	|Left Total Hip Neck Z-score|
+|	|RTHBMC	|Right Total Hip Neck Bone Mineral Content (g)|
+|	|RTHBMD	|Right Total Hip Neck Areal Bone Mineral Density (g/cm2)|
+|	|RTHTScr	|Right Total Hip Neck T-score|
+|	|RTHZScr	|Right Total Hip Neck Z-score|
+|	|MeanTHTScr	|Mean Total Hip Neck T-score|
+|	|MeanTHBMC	|Mean Total Hip Neck Bone Mineral Content (g)|
+|	|MeanTHBMD	|Mean Total Hip Neck Areal Bone Mineral Density (g/cm2)|
 |Radius Scan |Rad1/3Area	|Third-distal Area (cm2)|
 | |Rad1/3BMC |Third-distal Bone Mineral Content (g)|
 | |Rad1/3BMD |Third-distal Areal Bone Mineral Density (g/cm2)|
