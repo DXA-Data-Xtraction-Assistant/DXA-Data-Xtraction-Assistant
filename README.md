@@ -86,31 +86,33 @@ The input folder should be the folder that contains all DXA outputs (see [DXA Ou
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 ## Scan Type Selection
-DXA Data Xtraction Assistant provides several options for the users to customize their output files ([Figure 3: Output Interface – Selecting the Interested Outcomes](#Scan-Type-Selection)). 
+DXA Data Xtraction Assistant provides several options for the users to customize their output files ([Figure 5: Output Interface – Selecting the Interested Outcomes](#Scan-Type-Selection)). 
 * Check all data that should be included in the DXA Data Xtraction Assistant output “.csv” file.  
 * Then, click the Merge button. 
 The “.csv” files with the chosen data will then be saved in the assigned output file path.
 
-![Figure 3: Output Interface – Selecting the Interested Outcomes](/FIG/FIG3.png)
+![Figure 5: Output Interface – Selecting the Interested Outcomes](/FIG/FIG3.png)
 
-*Figure 3: Output Interface – Selecting the Interested Outcomes*
+*Figure 5: Output Interface – Selecting the Interested Outcomes*
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 # Output Details
 The created “.csv” output files will be saved in the provided file path.  Output files are automatically provided using two types of output formats: (1) the first separates out information into one “.csv” file for participant information and a separate “.csv” file for each DXA scan type; (2) the second output format results in a large, merged table containing all information (participant information and scan type). Details of this process are introduced in the following sections.
-The output “.csv” files include a merged file, named “MergedOutput.csv”, in the selected output file path, as well as a subfolder named as “SingleType” ([Figure 4: Merged Output](#Output-Details)), which contains the participant information in one file, “Demographic.csv” and the information for each requested DXA scan type as separate “.csv” file ([Figure 5: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)).
+The output “.csv” files include a merged file, named “MergedOutput.csv”, in the selected output file path, as well as a subfolder named as “SingleType” ([Figure 6: Merged Output](#Output-Details)), which contains the participant information in one file, “Demographic.csv” and the information for each requested DXA scan type as separate “.csv” file ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)).
 
-![Figure 4: Merged Output](/FIG/FIG4.png)
+![Figure 6: Merged Output](/FIG/FIG4.png)
 
-*Figure 4: Merged Output*
+*Figure 6: Merged Output*
 
-![Figure 5: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](/FIG/FIG5.png)
+![Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](/FIG/FIG5.png)
 
-*Figure 5: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant *
+*Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant *
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-## Single Type
-### Demographic
+
+## Hologic
+### Single Type
+#### Demographic
 The “Demographic.csv” file is a default file which is automatically generated when using the DDXA Data Xtraction Assistant.  This file contains each patients’ demographic information, collected from each DXA output. This file includes 8 columns (Table 2). 
 
 *Table 2: Demographic output*
@@ -128,7 +130,7 @@ The “Demographic.csv” file is a default file which is automatically generate
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 ### Total Hip
-If the Total Hip option was selected, a “TotalHip.csv” would be generated in the “SingleType” subfolder of the output file path ([Figure 5: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 3 introduced the meaning of each column.
+If the Total Hip option was selected, a “TotalHip.csv” would be generated in the “SingleType” subfolder of the output file path ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 3 introduced the meaning of each column.
 
 *Table 3: Total Hip output*
 
@@ -145,7 +147,7 @@ If the Total Hip option was selected, a “TotalHip.csv” would be generated in
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 ### Lumbar Spine
-If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 5: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
+If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
 
 *Table 4: Lumbar Spine output*
 
@@ -162,7 +164,7 @@ If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be genera
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 ### Total Body Bone
-If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be generated in “SingleType” subfolder ([Figure 5: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 5 introduced the meaning of each column.
+If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 5 introduced the meaning of each column.
 
 *Table 5: Total Body Bone output*
 
@@ -179,7 +181,7 @@ If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be g
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 ### Total Body Ext
-If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be generated in “SingleType” subfolder ([Figure 5: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 6 introduced the meaning of each column.
+If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 6 introduced the meaning of each column.
 
 *Table 6: Total Body Ext output*
 
