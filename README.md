@@ -663,59 +663,12 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|TotalDLean	|Totals Lean Mass Difference (g)|
 |	|TotalDBMC	|Totals Bone Mineral Content Difference (g)|
 |	|TotalDTotalMass	|Totals Total Mass Difference (kg)|
-
-
-
-
-|	|LArmLM+BMC*	|Left Arm Lean Mass (g) + Bone Mineral Content (g)|
-|	|LArmTotM*	|Left Arm Total Mass (g)|
-|	|LArmBF%*	|Left Arm Body Fat (%)|
-|	|RArmBMC	|Right Arm Bone Mineral Content (g)|
-|	|RArmFM*	|Right Arm Fat Mass (g)|
-|	|RArmLM	|Right Arm Lean Mass (g)|
-|	|RArmLM+BMC*	|Right Arm Lean Mass (g) + Bone Mineral Content (g)|
-|	|RArmTotM*	|Right Arm Total Mass (g)|
-|	|RArmBF%*	|Right Arm Body Fat (%)|
-|	|TrunkBMC	|Trunk Arm Bone Mineral Content (g)|
-|	|TrunkFM*	|Trunk Arm Fat Mass (g)|
-|	|TrunkLM	|Trunk Arm Lean Mass (g)|
-|	|TrunkLM+BMC*	|Trunk Arm Lean Mass (g) + Bone Mineral Content (g)|
-|	|TrunkTotM*	|Trunk Arm Total Mass (g)|
-|	|TrunkBF%*	|Trunk Arm Body Fat (%)|
-|	|LLegBMC	|Left Leg Bone Mineral Content (g)|
-|	|LLegFM*	|Left Leg Fat Mass (g)|
-|	|LLegLM	|Left Leg Lean Mass (g)|
-|	|LLegLM+BMC*	|Left Leg Lean Mass (g) + Bone Mineral Content (g)|
-|	|LLegTotM*	|Left Leg Total Mass (g)|
-|	|LLegBF%*	|Left Leg Body Fat (%)|
-|	|RLegBMC	|Right Leg Bone Mineral Content (g)|
-|	|RLegFM*	|Right Leg Fat Mass (g)|
-|	|RLegLM	|Right Leg Lean Mass (g)|
-|	|RLegLM+BMC*	|Right Leg Lean Mass (g) + Bone Mineral Content (g)|
-|	|RLegTotM*	|Right Leg Total Mass (g)|
-|	|RLegBF%*	|Right Leg Body Fat (%)|
-|	|SubTotalBMC	|Subtotal Bone Mineral Content (g)|
-|	|SubTotalFM*	|Subtotal Fat Mass (g)|
-|	|SubTotalLM	|Subtotal Lean Mass (g)|
-|	|SubTotalLM+BMC*	|Subtotal Lean Mass (g) + Bone Mineral Content (g)|
-|	|SubTotalTotM*	|Subtotal Total Mass (g)|
-|	|SubTotalBF%*	|Subtotal Body Fat (%)|
-|	|HeadBMC	|Head Bone Mineral Content (g)|
-|	|HeadFM*	|Head Fat Mass (g)|
-|	|HeadLM	|Head Lean Mass (g)|
-|	|HeadLM+BMC*	|Head Lean Mass (g) + Bone Mineral Content (g)|
-|	|HeadTotM*	|Head Total Mass (g)|
-|	|HeadBF%*	|Head Body Fat (%)|
-|	|TotalBMC	|Total Bone Mineral Content (g)|
-|	|TotalFM*	|Total Fat Mass (g)|
-|	|TotalLM	|Total Lean Mass (g)|
-|	|TotalLM+BMC*	|Total Lean Mass (g) + Bone Mineral Content (g)|
-|	|TotalTotM*	|Total Total Mass (g)|
-|	|TotalBF%*	|Total Body Fat (%)|
 |Lumbar Spine	|L1L4BMC	|L1-L4 Bone Mineral Content (g)|
 |	|L1L4BMD	|L1-L4 Areal Bone Mineral Density (g/cm2)|
 |	|L1L4TScr	|L1-L4 T-score|
 |	|L1L4ZScr	|L1-L4 Z-score|
+
+
 |Total Hip Ext  |LFNBMC	|Left Femoral Neck Bone Mineral Content (g)|
 |	|LFNBMD	|Left Femoral Neck Areal Bone Mineral Density (g/cm2)|
 |	|LFNTScr	|Left Femoral Neck T-score|
@@ -743,21 +696,9 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|MeanTHTScr	|Mean Total Hip Neck T-score|
 |	|MeanTHBMC	|Mean Total Hip Neck Bone Mineral Content (g)|
 |	|MeanTHBMD	|Mean Total Hip Neck Areal Bone Mineral Density (g/cm2)|
-|Radius Scan |Rad1/3Area	|Third-distal Area (cm2)|
-| |Rad1/3BMC |Third-distal Bone Mineral Content (g)|
-| |Rad1/3BMD |Third-distal Areal Bone Mineral Density (g/cm2)|
-| |Rad1/3Zsc |Third-distal  Z-score|
-| |RadMIDArea	|Mid-distal Area (cm2)|
-| |RadMIDBMC |Mid-distal Bone Mineral Content (g)|
-| |RadMIDBMD |Mid-distal Areal Bone Mineral Density (g/cm2)|
-| |RadMIDZsc |Mid-distal Z-score|
-| |RadUDArea	|Ultradistal Area (cm2)|
-| |RadUDBMC |Ultradistal Bone Mineral Content (g)|
-| |RadUDBMD |Ultradistal Areal Bone Mineral Density (g/cm2)|
-| |RadUDZsc |Ultradistal Z-score|
-| |RadTotArea	|Total distal Area (cm2)|
-| |RadTotBMC |Total distal Bone Mineral Content (g)|
-| |RadTotBMD |Total distal Areal Bone Mineral Density (g/cm2)|
-| |RadTotZsc |Total distal Z-score|
+|Radius Scan |Rad1/3BMD |Third-distal Areal Bone Mineral Density (g/cm2)|
+| |Rad1/3TScr |Third-distal  T-score|
+| |Rad1/3ZScr |Third-distal  Z-score|
+
 									
 
