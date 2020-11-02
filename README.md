@@ -17,7 +17,7 @@ A software used to convert DXA output from xps format into csv files.
 
 *[Output Details](#Output-Details)
   - [Hologic](#Hologic)
-    - [Single Type](#Output-Details##Hologic###Single-Type)
+    - [Hologic: Single Type](#Hologic:-Single-Type)
       - [Demographic](#Demographic)
       - [Total Body Bone](#Total-Body-Bone)
       - [Total Body Composition](#Total-Body-Composition)
@@ -122,7 +122,7 @@ The output “.csv” files include a merged file, named “MergedOutput.csv”,
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
 ## Hologic
-### Single Type
+### Hologic: Single Type
 #### Demographic
 The “Demographic.csv” file is a default file which is automatically generated when using the DDXA Data Xtraction Assistant.  This file contains each patients’ demographic information, collected from each DXA output. This file includes 8 columns (Table 2). 
 
