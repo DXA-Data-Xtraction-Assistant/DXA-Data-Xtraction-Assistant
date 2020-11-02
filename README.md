@@ -129,7 +129,7 @@ The “Demographic.csv” file is a default file which is automatically generate
 |Height	|Patient Height, as it appears in the DXA scan |
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-### Total Hip
+#### Total Hip
 If the Total Hip option was selected, a “TotalHip.csv” would be generated in the “SingleType” subfolder of the output file path ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 3 introduced the meaning of each column.
 
 *Table 3: Total Hip output*
@@ -146,7 +146,7 @@ If the Total Hip option was selected, a “TotalHip.csv” would be generated in
 |Z_score	|Z-score|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-### Lumbar Spine
+#### Lumbar Spine
 If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
 
 *Table 4: Lumbar Spine output*
@@ -163,7 +163,7 @@ If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be genera
 |Z_score	|Z-score|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-### Total Body Bone
+#### Total Body Bone
 If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 5 introduced the meaning of each column.
 
 *Table 5: Total Body Bone output*
@@ -180,7 +180,7 @@ If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be g
 |Z_score	|Z-score|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-### Total Body Ext
+#### Total Body Ext
 If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 6 introduced the meaning of each column.
 
 *Table 6: Total Body Ext output*
@@ -198,8 +198,8 @@ If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be gen
 |Fat_Percent	|Fat Percent (%)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-### Total Body Composition
-If the Total Body Composition option was selected, three outputs files will be created in the “SingleType” subfolder ([Figure 5: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)): (1) “TotalBodyComp_Adipose.csv”, (2) “TotalBodyComp_Composition.csv”, and (3) “TotalBodyComp_Lean.csv. 
+#### Total Body Composition
+If the Total Body Composition option was selected, three outputs files will be created in the “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)): (1) “TotalBodyComp_Adipose.csv”, (2) “TotalBodyComp_Composition.csv”, and (3) “TotalBodyComp_Lean.csv. 
 Table 7 introduced the meaning of each column for “TotalBodyComp_Adipose.csv”
 
 *Table 7: Total Body Composition - Adipose output*
@@ -243,8 +243,8 @@ Table 9 introduced the meaning of each column for “TotalBodyComp_Lean.csv”
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-### Radius Scan
-If the Radius Scan option was selected, a “Radius.csv” would be generated in “SingleType” subfolder ([Figure 5: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 10 introduced the meaning of each column.
+#### Radius Scan
+If the Radius Scan option was selected, a “Radius.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 10 introduced the meaning of each column.
 
 *Table 10: Radius Scan output*
 
@@ -260,8 +260,8 @@ If the Radius Scan option was selected, a “Radius.csv” would be generated in
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-## Merged Output
-A “MergedOutput.csv” would be generated in the output path ([Figure 4: Merged Output](#Output-Details)). It would only contain the interested outcomes as selected ([Figure 3: Output Interface – Selecting the Interested Outcomes](#Scan-Type-Selection)). Table 11 introduced the meaning of each column when all options were picked up.
+### Merged Output
+A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merged Output](#Output-Details)). It would only contain the interested outcomes as selected ([Figure 5: Output Interface – Selecting the Interested Outcomes](#Scan-Type-Selection)). Table 11 introduced the meaning of each column when all options were picked up.
 
 *Table 11: Merged Output*
 
