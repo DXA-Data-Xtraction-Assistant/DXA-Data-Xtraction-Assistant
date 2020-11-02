@@ -18,23 +18,23 @@ A software used to convert DXA output from xps format into csv files.
 *[Output Details](#Output-Details)
   - [Hologic](#Hologic)
     - [Hologic: Single Type](#Hologic-Single-Type)
-      - [Demographic](#Demographic)
-      - [Total Body Bone](#Total-Body-Bone)
-      - [Total Body Composition](#Total-Body-Composition)
-      - [Total Body Ext](#Total-Body-Ext)
-      - [Lumbar Spine](#Lumbar-Spine)
-      - [Total Hip Ext](#Total-Hip-Ext)
-      - [Radius Scan](#Radius-Scan)
-    - [Merged Output](#Merged-Output)
+      - [Hologic: Demographic](#Hologic-Demographic)
+      - [Hologic: Total Body Bone](#Hologic-Total-Body-Bone)
+      - [Hologic: Total Body Composition](#Hologic-Total-Body-Composition)
+      - [Hologic: Total Body Ext](#Hologic-Total-Body-Ext)
+      - [Hologic: Lumbar Spine](#Hologic-Lumbar-Spine)
+      - [Hologic: Total Hip Ext](#Hologic-Total-Hip-Ext)
+      - [Hologic: Radius Scan](#Hologic-Radius-Scan)
+    - [Hologic: Merged Output](#Hologic-Merged-Output)
   - [Lunar Prodigy](#Lunar-Prodigy)
-    - [Single Type](#Single-Type-2)
-      - [Demographic](#Demographic-2)
-      - [Total Body Bone Ext](#Total-Body-Bone-Ext)
-      - [Total Body Ext](#Total-Body-Ext-2)
-      - [Lumbar Spine Ext](#Lumbar-Spine-Ext)
-      - [Total Hip Ext](#Total-Hip-Ext-2)
-      - [Radius Scan](#Radius-Scan-2)
-    - [Merged Output](#Merged-Output-2)
+    - [Lunar Prodigy: Single Type](#Lunar-Prodigy-Single-Type)
+      - [Lunar Prodigy: Demographic](#Lunar-Prodigy-Demographic)
+      - [Lunar Prodigy: Total Body Bone Ext](#Lunar-Prodigy-Total-Body-Bone-Ext)
+      - [Lunar Prodigy: Total Body Ext](#Lunar-Prodigy-Total-Body-Ext)
+      - [Lunar Prodigy: Lumbar Spine Ext](#Lunar-Prodigy-Lumbar-Spine-Ext)
+      - [Lunar Prodigy: Total Hip Ext](#Lunar-Prodigy-Total-Hip-Ext)
+      - [Lunar Prodigy: Radius Scan](#Lunar-Prodigy-Radius-Scan)
+    - [Lunar Prodigy: Merged Output](#Lunar-Prodigy-Merged-Output)
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
@@ -123,7 +123,7 @@ The output “.csv” files include a merged file, named “MergedOutput.csv”,
 
 ## Hologic
 ### Hologic: Single Type
-#### Demographic
+#### Hologic: Demographic
 The “Demographic.csv” file is a default file which is automatically generated when using the DDXA Data Xtraction Assistant.  This file contains each patients’ demographic information, collected from each DXA output. This file includes 8 columns (Table 2). 
 
 *Table 2: Demographic output*
@@ -140,7 +140,7 @@ The “Demographic.csv” file is a default file which is automatically generate
 |Height	|Patient Height, as it appears in the DXA scan |
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Body Bone
+#### Hologic: Total Body Bone
 If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 5 introduced the meaning of each column.
 
 *Table 5: Total Body Bone output*
@@ -158,7 +158,7 @@ If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be g
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Body Composition
+#### Hologic: Total Body Composition
 If the Total Body Composition option was selected, three outputs files will be created in the “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)): (1) “TotalBodyComp_Adipose.csv”, (2) “TotalBodyComp_Composition.csv”, and (3) “TotalBodyComp_Lean.csv. 
 Table 7 introduced the meaning of each column for “TotalBodyComp_Adipose.csv”
 
@@ -203,7 +203,7 @@ Table 9 introduced the meaning of each column for “TotalBodyComp_Lean.csv”
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Body Ext
+#### Hologic: Total Body Ext
 If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 6 introduced the meaning of each column.
 
 *Table 6: Total Body Ext output*
@@ -222,7 +222,7 @@ If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be gen
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Lumbar Spine
+#### Hologic: Lumbar Spine
 If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
 
 *Table 4: Lumbar Spine output*
@@ -239,7 +239,7 @@ If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be genera
 |Z_score	|Z-score|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Hip Ext
+#### Hologic: Total Hip Ext
 If the Total Hip Ext option was selected, a “TotalHipExt.csv” would be generated in the “SingleType” subfolder of the output file path ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 3 introduced the meaning of each column.
 
 *Table 3: Total Hip Ext output*
@@ -256,7 +256,7 @@ If the Total Hip Ext option was selected, a “TotalHipExt.csv” would be gener
 |Z_score	|Z-score|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Radius Scan
+#### Hologic: Radius Scan
 If the Radius Scan option was selected, a “Rad.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 10 introduced the meaning of each column.
 
 *Table 10: Radius Scan output*
@@ -273,7 +273,7 @@ If the Radius Scan option was selected, a “Rad.csv” would be generated in �
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-### Merged Output
+### Hologic: Merged Output
 A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merged Output](#Output-Details)). It would only contain the interested outcomes as selected ([Figure 5: Output Interface – Selecting the Interested Outcomes](#Scan-Type-Selection)). Table 11 introduced the meaning of each column when all options were picked up.
 
 *Table 11: Merged Output*
@@ -412,8 +412,8 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
 ## Lunar Prodigy
-### Single Type
-#### Demographic
+### Lunar Prodigy: Single Type
+#### Lunar Prodigy: Demographic
 The “Demographic.csv” file is a default file which is automatically generated when using the DDXA Data Xtraction Assistant.  This file contains each patients’ demographic information, collected from each DXA output. This file includes 8 columns (Table 2). 
 
 *Table 2: Demographic output*
@@ -431,7 +431,7 @@ The “Demographic.csv” file is a default file which is automatically generate
 |Weight	|Patient Weight, as it appears in the DXA scan |
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Body Bone Ext
+#### Lunar Prodigy: Total Body Bone Ext
 If the Total Body Bone Ext option was selected, a “TotalBodyBoneExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 5 introduced the meaning of each column.
 
 *Table 5: Total Body Bone Ext output*
@@ -451,7 +451,7 @@ If the Total Body Bone Ext option was selected, a “TotalBodyBoneExt.csv” wou
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Body Ext
+#### Lunar Prodigy: Total Body Ext
 If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 6 introduced the meaning of each column.
 
 *Table 6: Total Body Ext output*
@@ -472,7 +472,7 @@ If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be gen
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Lumbar Spine Ext
+#### Lunar Prodigy: Lumbar Spine Ext
 If the Lumbar Spine Ext option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
 
 *Table 4: Lumbar Spine Ext output*
@@ -493,7 +493,7 @@ If the Lumbar Spine Ext option was selected, a “LumbarSpine.csv” would be ge
 |Height_cm	|height (cm)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Hip Ext
+#### Lunar Prodigy: Total Hip Ext
 If the Total Hip Ext option was selected, a “TotalHipExt.csv” would be generated in the “SingleType” subfolder of the output file path ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 3 introduced the meaning of each column.
 
 *Table 3: Total Hip Ext output*
@@ -512,7 +512,7 @@ If the Total Hip Ext option was selected, a “TotalHipExt.csv” would be gener
 |Area_cm2	|Area (cm2)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Radius Scan
+#### Lunar Prodigy: Radius Scan
 If the Radius Scan option was selected, a “Rad.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 10 introduced the meaning of each column.
 
 *Table 10: Radius Scan output*
@@ -530,7 +530,7 @@ If the Radius Scan option was selected, a “Rad.csv” would be generated in �
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-### Merged Output
+### Lunar Prodigy: Merged Output
 A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merged Output](#Output-Details)). It would only contain the interested outcomes as selected ([Figure 5: Output Interface – Selecting the Interested Outcomes](#Scan-Type-Selection)). Table 11 introduced the meaning of each column when all options were picked up.
 
 *Table 11: Merged Output*
