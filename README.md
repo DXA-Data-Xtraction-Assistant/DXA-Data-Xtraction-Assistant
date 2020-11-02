@@ -508,8 +508,8 @@ If the Lumbar Spine Ext option was selected, a “LumbarSpineExt.csv” would be
 |AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
-|Width_cm	|width (cm)|
-|Height_cm	|height (cm)|
+|Width_cm	|Width (cm)|
+|Height_cm	|Height (cm)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### Lunar Prodigy: Total Hip Ext
@@ -799,8 +799,8 @@ If the Lumbar Spine Ext option was selected, a “LumbarSpineExt.csv” would be
 |AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
-|Width_cm	|width (cm)|
-|Height_cm	|height (cm)|
+|Width_cm	|Width (cm)|
+|Height_cm	|Height (cm)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### MG: Total Hip Ext
@@ -1308,12 +1308,10 @@ If the Total Body Bone option was selected, a “TotalBodyBone.csv” would be g
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
-|YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
-|AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
+|Lean_Mass_g	|Lean Mass (g)|
+|Fat_Mass_g	|Fat Mass (g)|
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
@@ -1327,14 +1325,10 @@ If the Total Body Composition option was selected, a “TotalBodyComp.csv” wou
 |Patients_ID	|Patient ID, from the input file name|
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
-|Tissue_Percent_Fat	|Tissue Fat (%)|
-|Region_Percent_Fat	|Region Fat (%)|
-|Tissue_g	|Tissue Mass (g)|
-|Fat_g	|Fat Mass (g)|
-|Lean_g	|Lean Mass (g)|
-|BMC_g	|Bone Mineral Content (g)|
+|Fat_Mass_kg	|Fat Mass (kg)|
+|Lean_Mass_kg	|Lean Mass (kg)|
+|BMC_kg	|Bone Mineral Content (kg)|
 |Total_Mass_kg	|Total Mass (kg)|
-
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
@@ -1349,14 +1343,18 @@ If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be genera
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
-|YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
-|AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
-|Width_cm	|width (cm)|
-|Height_cm	|height (cm)|
+|Length_cm	|Length (cm)|
+|Width_cm	|Width (cm)|
+|T_score	|T-score|
+|Young_Ref_%	|The mean of a young adult reference|
+|Z_score	|Z-score|
+|Age_Match_%	|The mean of an age-matched reference|
+|ST_Change_%	|ST Change (%)|
+|ST_Change_%/year	|ST Change (%/year)|
+|LT_Change_%	|LT Change (%)|
+|LT_Change_%/year	|LT Change (%/year)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### Norland: Total Hip
@@ -1370,12 +1368,16 @@ If the Total Hip option was selected, a “TotalHip.csv” would be generated in
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
-|YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
-|AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
+|T_score	|T-score|
+|Young_Ref_%	|The mean of a young adult reference|
+|Z_score	|Z-score|
+|Age_Match_%	|The mean of an age-matched reference|
+|ST_Change_%	|ST Change (%)|
+|ST_Change_%/year	|ST Change (%/year)|
+|LT_Change_%	|LT Change (%)|
+|LT_Change_%/year	|LT Change (%/year)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### Norland: Radius Scan
@@ -1389,12 +1391,18 @@ If the Radius Scan option was selected, a “Rad.csv” would be generated in �
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
-|YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
-|AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
+|Length_cm	|Length (cm)|
+|Width_cm	|Width (cm)|
+|T_score	|T-score|
+|Young_Ref_%	|The mean of a young adult reference|
+|Z_score	|Z-score|
+|Age_Match_%	|The mean of an age-matched reference|
+|ST_Change_%	|ST Change (%)|
+|ST_Change_%/year	|ST Change (%/year)|
+|LT_Change_%	|LT Change (%)|
+|LT_Change_%/year	|LT Change (%/year)|
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
