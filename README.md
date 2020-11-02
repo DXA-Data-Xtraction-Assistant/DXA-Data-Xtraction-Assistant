@@ -35,6 +35,15 @@ A software used to convert DXA output from xps format into csv files.
       - [Lunar Prodigy: Total Hip Ext](#Lunar-Prodigy-Total-Hip-Ext)
       - [Lunar Prodigy: Radius Scan](#Lunar-Prodigy-Radius-Scan)
     - [Lunar Prodigy: Merged Output](#Lunar-Prodigy-Merged-Output)
+  - [MG](#MG)
+    - [MG: Single Type](#MG-Single-Type)
+      - [MG: Demographic](#MG-Demographic)
+      - [MG: Total Body Bone Ext](#MG-Total-Body-Bone-Ext)
+      - [MG: Total Body Ext](#MG-Total-Body-Ext)
+      - [MG: Lumbar Spine Ext](#MG-Lumbar-Spine-Ext)
+      - [MG: Total Hip Ext](#MG-Total-Hip-Ext)
+      - [MG: Radius Scan](#MG-Radius-Scan)
+    - [MG: Merged Output](#MG-Merged-Output)
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
@@ -699,4 +708,297 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 | |Rad1/3ZScr |Third-distal  Z-score|
 
 									
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+
+## MG
+### MG: Single Type
+#### MG: Demographic
+The “Demographic.csv” file is a default file which is automatically generated when using the DDXA Data Xtraction Assistant.  This file contains each patients’ demographic information, collected from each DXA output. This file includes 8 columns (Table 2). 
+
+*Table 2: Demographic output*
+
+|Variables|Description|
+|---|---|
+|Patients_ID|Patient ID, from the input file name|
+|Patients_Visit|Visit Number, from the input file name|
+|Name	|Patient name, as it appears in the DXA scan |
+|Age	|Patient age, as it appears in the DXA scan |
+|DOB	|Patient date of birth, as it appears in the DXA scan |
+|Sex	|Patient sex, as it appears in the DXA scan |
+|Ethnicity	|Patient Ethnicity, as it appears in the DXA scan |
+|Height	|Patient Height, as it appears in the DXA scan |
+|Weight	|Patient Weight, as it appears in the DXA scan |
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+#### MG: Total Body Bone Ext
+If the Total Body Bone Ext option was selected, a “TotalBodyBoneExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 5 introduced the meaning of each column.
+
+*Table 5: Total Body Bone Ext output*
+
+|Variables	|Explanation|
+|---|---|
+|Patients_ID	|Patient ID, from the input file name|
+|Patients_Visit	|Visit Number, from the input file name|
+|Region	|Region of DXA measurement|
+|BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
+|YA_Percent	|The mean of a young adult reference|
+|YA_T_score	|T-score|
+|AM_Percent	|The mean of an age-matched reference|
+|AM_Z_score	|Z-score|
+|BMC_g	|Bone Mineral Content (g)|
+|Area_cm2	|Area (cm2)|
+
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+#### MG: Total Body Ext
+If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 6 introduced the meaning of each column.
+
+*Table 6: Total Body Ext output*
+
+|Variables	|Explanation|
+|---|---|
+|Patients_ID	|Patient ID, from the input file name|
+|Patients_Visit	|Visit Number, from the input file name|
+|Region	|Region of DXA measurement|
+|Tissue_Percent_Fat	|Tissue Fat (%)|
+|Region_Percent_Fat	|Region Fat (%)|
+|Tissue_g	|Tissue Mass (g)|
+|Fat_g	|Fat Mass (g)|
+|Lean_g	|Lean Mass (g)|
+|BMC_g	|Bone Mineral Content (g)|
+|Total_Mass_kg	|Total Mass (kg)|
+
+
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+#### MG: Lumbar Spine Ext
+If the Lumbar Spine Ext option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
+
+*Table 4: Lumbar Spine Ext output*
+
+|Variables	|Explanation|
+|---|---|
+|Patients_ID	|Patient ID, from the input file name|
+|Patients_Visit	|Visit Number, from the input file name|
+|Region	|Region of DXA measurement|
+|BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
+|YA_Percent	|The mean of a young adult reference|
+|YA_T_score	|T-score|
+|AM_Percent	|The mean of an age-matched reference|
+|AM_Z_score	|Z-score|
+|BMC_g	|Bone Mineral Content (g)|
+|Area_cm2	|Area (cm2)|
+|Width_cm	|width (cm)|
+|Height_cm	|height (cm)|
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+#### MG: Total Hip Ext
+If the Total Hip Ext option was selected, a “TotalHipExt.csv” would be generated in the “SingleType” subfolder of the output file path ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 3 introduced the meaning of each column.
+
+*Table 3: Total Hip Ext output*
+
+|Variables	|Explanation|
+|---|---|
+|Patients_ID	|Patient ID, from the input file name|
+|Patients_Visit	|Visit Number, from the input file name|
+|Region	|Region of DXA measurement|
+|BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
+|YA_Percent	|The mean of a young adult reference|
+|YA_T_score	|T-score|
+|AM_Percent	|The mean of an age-matched reference|
+|AM_Z_score	|Z-score|
+|BMC_g	|Bone Mineral Content (g)|
+|Area_cm2	|Area (cm2)|
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+#### MG: Radius Scan
+If the Radius Scan option was selected, a “Rad.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 10 introduced the meaning of each column.
+
+*Table 10: Radius Scan output*
+
+|Variables	|Explanation|
+|---|---|
+|Patients_ID	|Patient ID, from the input file name|
+|Patients_Visit	|Visit Number, from the input file name|
+|Region	|Region of DXA measurement|
+|BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
+|YA_Percent	|The mean of a young adult reference|
+|YA_T_score	|T-score|
+|AM_Percent	|The mean of an age-matched reference|
+|AM_Z_score	|Z-score|
+|BMC_g	|Bone Mineral Content (g)|
+|Area_cm2	|Area (cm2)|
+
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+### MG: Merged Output
+A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merged Output](#Output-Details)). It would only contain the interested outcomes as selected ([Figure 5: Output Interface – Selecting the Interested Outcomes](#Scan-Type-Selection)). Table 11 introduced the meaning of each column when all options were picked up.
+
+*Table 11: Merged Output*
+
+|Options	|Variables	|Explanation|
+|---|---|---|
+|Demographic	|Patients_ID	|Patient ID, from the input file name|
+|	|Visit	|Visit Number, from the input file name|
+|	|Name	|Patient name appeared in the scan report|
+|	|Age	|Patient age|
+|	|DOB	|Patient date of birth|
+|	|Sex	|Patient sex|
+|	|Ethnicity	|Patient Ethnicity|
+|	|Height	|Patient Height|
+|	|Weight	|Patient Weight|
+|Total Body Bone Ext	|LArmBMD	|Left Arm Areal Bone Mineral Density (g/cm2)|
+|	|RArmBMD	|Right Arm Areal Bone Mineral Density (g/cm2)|
+|	|RibBMD	|Rib Areal Bone Mineral Density (g/cm2)|
+|	|LLegBMD	|Left Leg Areal Bone Mineral Density (g/cm2)|
+|	|RLegBMD	|Right Leg Areal Bone Mineral Density (g/cm2)|
+|	|TotBMC	|Total Body Bone Mineral Content (g)|
+|	|TotBMD	|Total Body Areal Bone Mineral Density (g/cm2)|
+|	|TotTScr	|Total Body T-score|
+|	|TotZScr	|Total Body Z-score|
+|Total Body Ext	|ArmsRegPerFat	|Arms Region Fat Percent(%)|
+|	|ArmsTissue	|Arms Tissue Mass (g)|
+|	|ArmsFat	|Arms Fat Mass (g)|
+|	|ArmsLean	|Arms Lean Mass (g)|
+|	|ArmsBMC	|Arms Bone Mineral Content (g)|
+|	|ArmsTotalMass	|Arms Total Mass (kg)|
+|	|ArmRRegPerFat	|Right Arm Region Fat Percent(%)|
+|	|ArmRTissue	|Right Arms Tissue Mass (g)|
+|	|ArmRFat	|Right Arms Fat Mass (g)|
+|	|ArmRLean	|Right Arms Lean Mass (g)|
+|	|ArmRBMC	|Right Arms Bone Mineral Content (g)|
+|	|ArmRTotalMass	|Right Arms Total Mass (kg)|
+|	|ArmLRegPerFat	|Left Arm Region Fat Percent(%)|
+|	|ArmLTissue	|Left Arms Tissue Mass (g)|
+|	|ArmLFat	|Left Arms Fat Mass (g)|
+|	|ArmLLean	|Left Arms Lean Mass (g)|
+|	|ArmLBMC	|Left Arms Bone Mineral Content (g)|
+|	|ArmLTotalMass	|Left Arms Total Mass (kg)|
+|	|ArmDRegPerFat	|Left Arm Region Fat Percent Difference (%)|
+|	|ArmDTissue	|Arms Tissue Mass Difference (g)|
+|	|ArmDFat	|Arms Fat Mass Difference (g)|
+|	|ArmDLean	|Arms Lean Mass Difference (g)|
+|	|ArmDBMC	|Arms Bone Mineral Content Difference (g)|
+|	|ArmDTotalMass	|Arms Total Mass Difference (kg)|
+|	|LegsRegPerFat	|Legs Region Fat Percent(%)|
+|	|LegsTissue	|Legs Tissue Mass (g)|
+|	|LegsFat	|Legs Fat Mass (g)|
+|	|LegsLean	|Legs Lean Mass (g)|
+|	|LegsBMC	|Legs Bone Mineral Content (g)|
+|	|LegsTotalMass	|Legs Total Mass (kg)|
+|	|LegRRegPerFat	|Right Leg Region Fat Percent(%)|
+|	|LegRTissue	|Right Legs Tissue Mass (g)|
+|	|LegRFat	|Right Legs Fat Mass (g)|
+|	|LegRLean	|Right Legs Lean Mass (g)|
+|	|LegRBMC	|Right Legs Bone Mineral Content (g)|
+|	|LegRTotalMass	|Right Legs Total Mass (kg)|
+|	|LegLRegPerFat	|Left Leg Region Fat Percent(%)|
+|	|LegLTissue	|Left Legs Tissue Mass (g)|
+|	|LegLFat	|Left Legs Fat Mass (g)|
+|	|LegLLean	|Left Legs Lean Mass (g)|
+|	|LegLBMC	|Left Legs Bone Mineral Content (g)|
+|	|LegLTotalMass	|Left Legs Total Mass (kg)|
+|	|LegDRegPerFat	|Left Leg Region Fat Percent Difference (%)|
+|	|LegDTissue	|Legs Tissue Mass Difference (g)|
+|	|LegDFat	|Legs Fat Mass Difference (g)|
+|	|LegDLean	|Legs Lean Mass Difference (g)|
+|	|LegDBMC	|Legs Bone Mineral Content Difference (g)|
+|	|LegDTotalMass	|Legs Total Mass Difference (kg)|
+|	|TrunkRegPerFat	|Trunk Region Fat Percent(%)|
+|	|TrunkTissue	|Trunk Tissue Mass (g)|
+|	|TrunkFat	|Trunk Fat Mass (g)|
+|	|TrunkLean	|Trunk Lean Mass (g)|
+|	|TrunkBMC	|Trunk Bone Mineral Content (g)|
+|	|TrunkTotalMass	|Trunk Total Mass (kg)|
+|	|TrunkRRegPerFat	|Right Trunk Region Fat Percent(%)|
+|	|TrunkRTissue	|Right Trunks Tissue Mass (g)|
+|	|TrunkRFat	|Right Trunks Fat Mass (g)|
+|	|TrunkRLean	|Right Trunks Lean Mass (g)|
+|	|TrunkRBMC	|Right Trunks Bone Mineral Content (g)|
+|	|TrunkRTotalMass	|Right Trunks Total Mass (kg)|
+|	|TrunkLRegPerFat	|Left Trunk Region Fat Percent(%)|
+|	|TrunkLTissue	|Left Trunks Tissue Mass (g)|
+|	|TrunkLFat	|Left Trunks Fat Mass (g)|
+|	|TrunkLLean	|Left Trunks Lean Mass (g)|
+|	|TrunkLBMC	|Left Trunks Bone Mineral Content (g)|
+|	|TrunkLTotalMass	|Left Trunks Total Mass (kg)|
+|	|TrunkDRegPerFat	|Left Trunk Region Fat Percent Difference (%)|
+|	|TrunkDTissue	|Trunks Tissue Mass Difference (g)|
+|	|TrunkDFat	|Trunks Fat Mass Difference (g)|
+|	|TrunkDLean	|Trunks Lean Mass Difference (g)|
+|	|TrunkDBMC	|Trunks Bone Mineral Content Difference (g)|
+|	|TrunkDTotalMass	|Trunks Total Mass Difference (kg)|
+|	|AndroidRegPerFat	|Android Region Fat Percent(%)|
+|	|AndroidTissue	|Android Tissue Mass (g)|
+|	|AndroidFat	|Android Fat Mass (g)|
+|	|AndroidLean	|Android Lean Mass (g)|
+|	|AndroidBMC	|Android Bone Mineral Content (g)|
+|	|AndroidTotalMass	|Android Total Mass (kg)|
+|	|GynoidRegPerFat	|Gynoid Region Fat Percent(%)|
+|	|GynoidTissue	|Gynoid Tissue Mass (g)|
+|	|GynoidFat	|Gynoid Fat Mass (g)|
+|	|GynoidLean	|Gynoid Lean Mass (g)|
+|	|GynoidBMC	|Gynoid Bone Mineral Content (g)|
+|	|GynoidTotalMass	|Gynoid Total Mass (kg)|
+|	|TotalRegPerFat	|Total Region Fat Percent(%)|
+|	|TotalTissue	|Total Tissue Mass (g)|
+|	|TotalFat	|Total Fat Mass (g)|
+|	|TotalLean	|Total Lean Mass (g)|
+|	|TotalBMC	|Total Bone Mineral Content (g)|
+|	|TotalTMass	|Total Mass (kg)|
+|	|TotalRRegPerFat	|Right Total Region Fat Percent(%)|
+|	|TotalRTissue	|Right Totals Tissue Mass (g)|
+|	|TotalRFat	|Right Totals Fat Mass (g)|
+|	|TotalRLean	|Right Totals Lean Mass (g)|
+|	|TotalRBMC	|Right Totals Bone Mineral Content (g)|
+|	|TotalRTotalMass	|Right Totals Total Mass (kg)|
+|	|TotalLRegPerFat	|Left Total Region Fat Percent(%)|
+|	|TotalLTissue	|Left Totals Tissue Mass (g)|
+|	|TotalLFat	|Left Totals Fat Mass (g)|
+|	|TotalLLean	|Left Totals Lean Mass (g)|
+|	|TotalLBMC	|Left Totals Bone Mineral Content (g)|
+|	|TotalLTotalMass	|Left Totals Total Mass (kg)|
+|	|TotalDRegPerFat	|Left Total Region Fat Percent Difference (%)|
+|	|TotalDTissue	|Totals Tissue Mass Difference (g)|
+|	|TotalDFat	|Totals Fat Mass Difference (g)|
+|	|TotalDLean	|Totals Lean Mass Difference (g)|
+|	|TotalDBMC	|Totals Bone Mineral Content Difference (g)|
+|	|TotalDTotalMass	|Totals Total Mass Difference (kg)|
+|Lumbar Spine	|L1L4BMC	|L1-L4 Bone Mineral Content (g)|
+|	|L1L4BMD	|L1-L4 Areal Bone Mineral Density (g/cm2)|
+|	|L1L4TScr	|L1-L4 T-score|
+|	|L1L4ZScr	|L1-L4 Z-score|
+|Total Hip Ext  |LFNBMC	|Left Femoral Neck Bone Mineral Content (g)|
+|	|LFNBMD	|Left Femoral Neck Areal Bone Mineral Density (g/cm2)|
+|	|LFNTScr	|Left Femoral Neck T-score|
+|	|LFNZScr	|Left Femoral Neck Z-score|
+|	|RFNBMC	|Right Femoral Neck Bone Mineral Content (g)|
+|	|RFNBMD	|Right Femoral Neck Areal Bone Mineral Density (g/cm2)|
+|	|RFNTScr	|Right Femoral Neck T-score|
+|	|RFNZScr	|Right Femoral Neck Z-score|
+|	|LGTBMC	|Left Greater Trochanter Neck Bone Mineral Content (g)|
+|	|LGTBMD	|Left Greater Trochanter Neck Areal Bone Mineral Density (g/cm2)|
+|	|LGTTScr	|Left Greater Trochanter Neck T-score|
+|	|LGTZScr	|Left Greater Trochanter Neck Z-score|
+|	|RGTBMC	|Right Greater Trochanter Neck Bone Mineral Content (g)|
+|	|RGTBMD	|Right Greater Trochanter Neck Areal Bone Mineral Density (g/cm2)|
+|	|RGTTScr	|Right Greater Trochanter Neck T-score|
+|	|RGTZScr	|Right Greater Trochanter Neck Z-score|
+|	|LTHBMC	|Left Total Hip Neck Bone Mineral Content (g)|
+|	|LTHBMD	|Left Total Hip Neck Areal Bone Mineral Density (g/cm2)|
+|	|LTHTScr	|Left Total Hip Neck T-score|
+|	|LTHZScr	|Left Total Hip Neck Z-score|
+|	|RTHBMC	|Right Total Hip Neck Bone Mineral Content (g)|
+|	|RTHBMD	|Right Total Hip Neck Areal Bone Mineral Density (g/cm2)|
+|	|RTHTScr	|Right Total Hip Neck T-score|
+|	|RTHZScr	|Right Total Hip Neck Z-score|
+|	|MeanTHTScr	|Mean Total Hip Neck T-score|
+|	|MeanTHBMC	|Mean Total Hip Neck Bone Mineral Content (g)|
+|	|MeanTHBMD	|Mean Total Hip Neck Areal Bone Mineral Density (g/cm2)|
+|Radius Scan |Rad1/3BMD |Third-distal Areal Bone Mineral Density (g/cm2)|
+| |Rad1/3TScr |Third-distal  T-score|
+| |Rad1/3ZScr |Third-distal  Z-score|
+
+					
 
