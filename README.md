@@ -573,12 +573,98 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|ArmLLean	|Left Arms Lean Mass (g)|
 |	|ArmLBMC	|Left Arms Bone Mineral Content (g)|
 |	|ArmLTotalMass	|Left Arms Total Mass (kg)|
-|	|ArmDRegPerFat	|Left Arm Region Fat Percent(%)|
+|	|ArmDRegPerFat	|Left Arm Region Fat Percent Difference (%)|
 |	|ArmDTissue	|Arms Tissue Mass Difference (g)|
 |	|ArmDFat	|Arms Fat Mass Difference (g)|
 |	|ArmDLean	|Arms Lean Mass Difference (g)|
 |	|ArmDBMC	|Arms Bone Mineral Content Difference (g)|
 |	|ArmDTotalMass	|Arms Total Mass Difference (kg)|
+|	|LegsRegPerFat	|Legs Region Fat Percent(%)|
+|	|LegsTissue	|Legs Tissue Mass (g)|
+|	|LegsFat	|Legs Fat Mass (g)|
+|	|LegsLean	|Legs Lean Mass (g)|
+|	|LegsBMC	|Legs Bone Mineral Content (g)|
+|	|LegsTotalMass	|Legs Total Mass (kg)|
+|	|LegRRegPerFat	|Right Leg Region Fat Percent(%)|
+|	|LegRTissue	|Right Legs Tissue Mass (g)|
+|	|LegRFat	|Right Legs Fat Mass (g)|
+|	|LegRLean	|Right Legs Lean Mass (g)|
+|	|LegRBMC	|Right Legs Bone Mineral Content (g)|
+|	|LegRTotalMass	|Right Legs Total Mass (kg)|
+|	|LegLRegPerFat	|Left Leg Region Fat Percent(%)|
+|	|LegLTissue	|Left Legs Tissue Mass (g)|
+|	|LegLFat	|Left Legs Fat Mass (g)|
+|	|LegLLean	|Left Legs Lean Mass (g)|
+|	|LegLBMC	|Left Legs Bone Mineral Content (g)|
+|	|LegLTotalMass	|Left Legs Total Mass (kg)|
+|	|LegDRegPerFat	|Left Leg Region Fat Percent Difference (%)|
+|	|LegDTissue	|Legs Tissue Mass Difference (g)|
+|	|LegDFat	|Legs Fat Mass Difference (g)|
+|	|LegDLean	|Legs Lean Mass Difference (g)|
+|	|LegDBMC	|Legs Bone Mineral Content Difference (g)|
+|	|LegDTotalMass	|Legs Total Mass Difference (kg)|
+|	|TrunkRegPerFat	|Trunk Region Fat Percent(%)|
+|	|TrunkTissue	|Trunk Tissue Mass (g)|
+|	|TrunkFat	|Trunk Fat Mass (g)|
+|	|TrunkLean	|Trunk Lean Mass (g)|
+|	|TrunkBMC	|Trunk Bone Mineral Content (g)|
+|	|TrunkTotalMass	|Trunk Total Mass (kg)|
+|	|TrunkRRegPerFat	|Right Trunk Region Fat Percent(%)|
+|	|TrunkRTissue	|Right Trunks Tissue Mass (g)|
+|	|TrunkRFat	|Right Trunks Fat Mass (g)|
+|	|TrunkRLean	|Right Trunks Lean Mass (g)|
+|	|TrunkRBMC	|Right Trunks Bone Mineral Content (g)|
+|	|TrunkRTotalMass	|Right Trunks Total Mass (kg)|
+|	|TrunkLRegPerFat	|Left Trunk Region Fat Percent(%)|
+|	|TrunkLTissue	|Left Trunks Tissue Mass (g)|
+|	|TrunkLFat	|Left Trunks Fat Mass (g)|
+|	|TrunkLLean	|Left Trunks Lean Mass (g)|
+|	|TrunkLBMC	|Left Trunks Bone Mineral Content (g)|
+|	|TrunkLTotalMass	|Left Trunks Total Mass (kg)|
+|	|TrunkDRegPerFat	|Left Trunk Region Fat Percent Difference (%)|
+|	|TrunkDTissue	|Trunks Tissue Mass Difference (g)|
+|	|TrunkDFat	|Trunks Fat Mass Difference (g)|
+|	|TrunkDLean	|Trunks Lean Mass Difference (g)|
+|	|TrunkDBMC	|Trunks Bone Mineral Content Difference (g)|
+|	|TrunkDTotalMass	|Trunks Total Mass Difference (kg)|
+|	|AndroidRegPerFat	|Android Region Fat Percent(%)|
+|	|AndroidTissue	|Android Tissue Mass (g)|
+|	|AndroidFat	|Android Fat Mass (g)|
+|	|AndroidLean	|Android Lean Mass (g)|
+|	|AndroidBMC	|Android Bone Mineral Content (g)|
+|	|AndroidTotalMass	|Android Total Mass (kg)|
+|	|GynoidRegPerFat	|Gynoid Region Fat Percent(%)|
+|	|GynoidTissue	|Gynoid Tissue Mass (g)|
+|	|GynoidFat	|Gynoid Fat Mass (g)|
+|	|GynoidLean	|Gynoid Lean Mass (g)|
+|	|GynoidBMC	|Gynoid Bone Mineral Content (g)|
+|	|GynoidTotalMass	|Gynoid Total Mass (kg)|
+|	|TotalRegPerFat	|Total Region Fat Percent(%)|
+|	|TotalTissue	|Total Tissue Mass (g)|
+|	|TotalFat	|Total Fat Mass (g)|
+|	|TotalLean	|Total Lean Mass (g)|
+|	|TotalBMC	|Total Bone Mineral Content (g)|
+|	|TotalTMass	|Total Mass (kg)|
+|	|TotalRRegPerFat	|Right Total Region Fat Percent(%)|
+|	|TotalRTissue	|Right Totals Tissue Mass (g)|
+|	|TotalRFat	|Right Totals Fat Mass (g)|
+|	|TotalRLean	|Right Totals Lean Mass (g)|
+|	|TotalRBMC	|Right Totals Bone Mineral Content (g)|
+|	|TotalRTotalMass	|Right Totals Total Mass (kg)|
+|	|TotalLRegPerFat	|Left Total Region Fat Percent(%)|
+|	|TotalLTissue	|Left Totals Tissue Mass (g)|
+|	|TotalLFat	|Left Totals Fat Mass (g)|
+|	|TotalLLean	|Left Totals Lean Mass (g)|
+|	|TotalLBMC	|Left Totals Bone Mineral Content (g)|
+|	|TotalLTotalMass	|Left Totals Total Mass (kg)|
+|	|TotalDRegPerFat	|Left Total Region Fat Percent Difference (%)|
+|	|TotalDTissue	|Totals Tissue Mass Difference (g)|
+|	|TotalDFat	|Totals Fat Mass Difference (g)|
+|	|TotalDLean	|Totals Lean Mass Difference (g)|
+|	|TotalDBMC	|Totals Bone Mineral Content Difference (g)|
+|	|TotalDTotalMass	|Totals Total Mass Difference (kg)|
+
+
 
 
 |	|LArmLM+BMC*	|Left Arm Lean Mass (g) + Bone Mineral Content (g)|
