@@ -442,51 +442,6 @@ If the Total Body Bone Ext option was selected, a “TotalBodyBoneExt.csv” wou
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Total Body Composition
-If the Total Body Composition option was selected, three outputs files will be created in the “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)): (1) “TotalBodyComp_Adipose.csv”, (2) “TotalBodyComp_Composition.csv”, and (3) “TotalBodyComp_Lean.csv. 
-Table 7 introduced the meaning of each column for “TotalBodyComp_Adipose.csv”
-
-*Table 7: Total Body Composition - Adipose output*
-
-|Patients_ID	|Patient ID, from the input file name|
-|---|---|
-|Patients_Visit	|Visit Number, from the input file name|
-|Measure	|Measurement names|
-|Result	|Measurement values|
-|Tscore	|T-scores|
-|Zscore	|Z-scores|
-
-Table 8 introduced the meaning of each column for “TotalBodyComp_Composition.csv”
-
-*Table 8: Total Body Composition - Composition output*
-
-|Variables	|Explanation|
-|---|---|
-|Patients_ID	|Patient ID, from the input file name|
-|Patients_Visit	|Visit Number, from the input file name|
-|Region	|Region of DXA measurement|
-|Fat_Mass_g	|Fat Mass (g)|
-|Lean_Mass_g	|Lean Mass (g)|
-|Total_Mass_g	|Total Mass (g)|
-|Fat_Percent	|Fat Percent (%)|
-|Fat_Percent_Tscore	|T-score of Fat Percent (%)|
-|Fat_Percent_Zscore	|Z-score of Fat Percent|
-
-Table 9 introduced the meaning of each column for “TotalBodyComp_Lean.csv”
-
-*Table 9: Total Body Composition - Lean output*
-
-|Variables	|Explanation|
-|--|--|
-|Patients_ID	|Patient ID, from the input file name|
-|Patients_Visit	|Visit Number, from the input file name|
-|Measure	|Measurement names|
-|Result	|Measurement values|
-|Tscore	|T-scores|
-|Zscore	|Z-scores|
-
-
-###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### Total Body Ext
 If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 6 introduced the meaning of each column.
 
@@ -497,12 +452,14 @@ If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be gen
 |Patients_ID	|Patient ID, from the input file name|
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
+|Tissue_Percent_Fat	|Tissue Fat (%)|
+|Region_Percent_Fat	|Region Fat (%)|
+|Tissue_g	|Tissue Mass (g)|
+|Fat_g	|Fat Mass (g)|
+|Lean_g	|Lean Mass (g)|
 |BMC_g	|Bone Mineral Content (g)|
-|Fat_Mass_g	|Fat Mass (g)|
-|Lean_Mass_g	|Lean Mass (g)|
-|Lean_BMC_g	|Lean Bone Mineral Content (g)|
-|Total_Mass_g	|Total Mass (g)|
-|Fat_Percent	|Fat Percent (%)|
+|Total_Mass_kg	|Total Mass (kg)|
+
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
