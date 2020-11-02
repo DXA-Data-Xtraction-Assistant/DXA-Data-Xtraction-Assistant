@@ -667,8 +667,6 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|L1L4BMD	|L1-L4 Areal Bone Mineral Density (g/cm2)|
 |	|L1L4TScr	|L1-L4 T-score|
 |	|L1L4ZScr	|L1-L4 Z-score|
-
-
 |Total Hip Ext  |LFNBMC	|Left Femoral Neck Bone Mineral Content (g)|
 |	|LFNBMD	|Left Femoral Neck Areal Bone Mineral Density (g/cm2)|
 |	|LFNTScr	|Left Femoral Neck T-score|
