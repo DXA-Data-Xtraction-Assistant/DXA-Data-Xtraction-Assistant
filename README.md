@@ -545,30 +545,16 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|Sex	|Patient sex|
 |	|Ethnicity	|Patient Ethnicity|
 |	|Height	|Patient Height|
-|Total Body Bone	|LArmBMD	|Left Arm Areal Bone Mineral Density (g/cm2)|
+|	|Weight	|Patient Weight|
+|Total Body Bone Ext	|LArmBMD	|Left Arm Areal Bone Mineral Density (g/cm2)|
 |	|RArmBMD	|Right Arm Areal Bone Mineral Density (g/cm2)|
-|	|LRibBMD	|Left Rib Areal Bone Mineral Density (g/cm2)|
-|	|RRibBMD	|Right Rib Areal Bone Mineral Density (g/cm2)|
+|	|RibBMD	|Rib Areal Bone Mineral Density (g/cm2)|
 |	|LLegBMD	|Left Leg Areal Bone Mineral Density (g/cm2)|
 |	|RLegBMD	|Right Leg Areal Bone Mineral Density (g/cm2)|
 |	|TotBMC	|Total Body Bone Mineral Content (g)|
 |	|TotBMD	|Total Body Areal Bone Mineral Density (g/cm2)|
 |	|TotTScr	|Total Body T-score|
 |	|TotZScr	|Total Body Z-score|
-|Total Body Composition - Composition	|AndroidFM	|Android Fat Mass (g)|
-|	|AndroidLM+BMC	|Android Mass (g) + Bone Mineral Content (g)|
-|	|AndroidTotM	|Android Total Mass (g)|
-|	|AndroidBF%	|Android Body Fat (%)|
-|	|GynoidFM	|Gynoid Fat Mass (g)|
-|	|GynoidLM+BMC	|Gynoid Mass (g) + Bone Mineral Content (g)|
-|	|GynoidTotM	|Gynoid Total Mass (g)|
-|	|GynoidBF%	|Gynoid Body Fat (%)|
-|Total Body Composition - Adipose	|A/G	|Android/Gynoid Ratio|
-|	|VATm	|Est. VAT Mass (g)|
-|	|VATv	|Est. VAT Volume (cm2)|
-|	|VATa	|Est. VAT Area (cm2)|
-|Total Body Composition - Lean	|Ln/Ht	|Lean/Height² (kg/m2)|
-|	|AppLn/Ht	|Appen. Lean/Height² (kg/m²)|
 |Total Body Ext	|LArmBMC	|Left Arm Bone Mineral Content (g)|
 |	|LArmFM*	|Left Arm Fat Mass (g)|
 |	|LArmLM	|Left Arm Lean Mass (g)|
