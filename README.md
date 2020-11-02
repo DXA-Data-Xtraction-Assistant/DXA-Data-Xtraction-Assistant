@@ -487,18 +487,20 @@ If the Lumbar Spine Ext option was selected, a “LumbarSpine.csv” would be ge
 #### Total Hip Ext
 If the Total Hip Ext option was selected, a “TotalHipExt.csv” would be generated in the “SingleType” subfolder of the output file path ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 3 introduced the meaning of each column.
 
-*Table 3: Total Hip output*
+*Table 3: Total Hip Ext output*
 
 |Variables	|Explanation|
 |---|---|
 |Patients_ID	|Patient ID, from the input file name|
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
-|Area_cm2	|Area (cm2)|
-|BMC_g	|Bone Mineral Content (g)|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|T_score	|T-score|
-|Z_score	|Z-score|
+|YA_Percent	|The mean of a young adult reference|
+|YA_T_score	|T-score|
+|AM_Percent	|The mean of an age-matched reference|
+|AM_Z_score	|Z-score|
+|BMC_g	|Bone Mineral Content (g)|
+|Area_cm2	|Area (cm2)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### Radius Scan
@@ -510,11 +512,12 @@ If the Radius Scan option was selected, a “Rad.csv” would be generated in �
 |---|---|
 |Patients_ID	|Patient ID, from the input file name|
 |Patients_Visit	|Visit Number, from the input file name|
-|Radius+Ulna |Region of DXA measurement|
-|Area_cm2	|Area (cm2)|
-|BMC_g	|Bone Mineral Content (g)|
+|Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|Z_score	|Z-score|
+|YA_Percent	|The mean of a young adult reference|
+|YA_T_score	|T-score|
+|AM_Percent	|The mean of an age-matched reference|
+|AM_Z_score	|Z-score|
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
