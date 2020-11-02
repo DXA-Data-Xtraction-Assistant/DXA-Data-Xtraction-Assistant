@@ -463,21 +463,25 @@ If the Total Body Ext option was selected, a “TotalBodyExt.csv” would be gen
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
-#### Lumbar Spine
-If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
+#### Lumbar Spine Ext
+If the Lumbar Spine Ext option was selected, a “LumbarSpine.csv” would be generated in “SingleType” subfolder ([Figure 7: Schematic for the “.csv” output files in the “SingleType” Subfolder for the DXA Data Xtraction Assistant](#Output-Details)). Table 4 introduced the meaning of each column.
 
-*Table 4: Lumbar Spine output*
+*Table 4: Lumbar Spine Ext output*
 
 |Variables	|Explanation|
 |---|---|
 |Patients_ID	|Patient ID, from the input file name|
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
-|Area_cm2	|Area (cm2)|
-|BMC_g	|Bone Mineral Content (g)|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|T_score	|T-score|
-|Z_score	|Z-score|
+|YA_Percent	|The mean of a young adult reference|
+|YA_T_score	|T-score|
+|AM_Percent	|The mean of an age-matched reference|
+|AM_Z_score	|Z-score|
+|BMC_g	|Bone Mineral Content (g)|
+|Area_cm2	|Area (cm2)|
+|Width_cm	|width (cm)|
+|Height_cm	|height (cm)|
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 #### Total Hip Ext
