@@ -11,7 +11,8 @@ A software used to convert DXA output from xps format into csv files.
   - [DXA Outputs](#DXA-Outputs)
 
 *[Usage](#Usage)
-  - [Path Setting](#Path-Setting)
+  - [Select Type of DXA Scanner](#Select-Type-of-DXA-Scanner)
+  - [Select Input and Output Paths](#Select-Input-and-Output-Paths)
   - [Scan Type Selection](#Scan-Type-Selection)
 
 *[Output Details](#Output-Details)
