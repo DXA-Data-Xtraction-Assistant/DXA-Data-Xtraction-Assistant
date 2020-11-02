@@ -848,15 +848,57 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|Ethnicity	|Patient Ethnicity|
 |	|Height	|Patient Height|
 |	|Weight	|Patient Weight|
-|Total Body Bone Ext	|LArmBMD	|Left Arm Areal Bone Mineral Density (g/cm2)|
-|	|RArmBMD	|Right Arm Areal Bone Mineral Density (g/cm2)|
-|	|RibBMD	|Rib Areal Bone Mineral Density (g/cm2)|
-|	|LLegBMD	|Left Leg Areal Bone Mineral Density (g/cm2)|
-|	|RLegBMD	|Right Leg Areal Bone Mineral Density (g/cm2)|
-|	|TotBMC	|Total Body Bone Mineral Content (g)|
-|	|TotBMD	|Total Body Areal Bone Mineral Density (g/cm2)|
-|	|TotTScr	|Total Body T-score|
-|	|TotZScr	|Total Body Z-score|
+|Total Body Bone Ext	|HeadBMD	|Head Areal Bone Mineral Density (g/cm2)|
+|	|HeadBMC	|Head Bone Mineral Content (g)|
+|	|HeadArea	|Head Area (cm2)|
+|	|ArmLBMD	|Left Arm Areal Bone Mineral Density (g/cm2)|
+|	|ArmLBMC	|Left Arm Bone Mineral Content (g)|
+|	|ArmLArea	|Left Arm Area (cm2)|
+|	|LegLBMD	|Left Leg Areal Bone Mineral Density (g/cm2)|
+|	|LegLBMC	|Left Leg Bone Mineral Content (g)|
+|	|LegLArea	|Left Leg Area (cm2)|
+|	|TrunkLBMD	|Left Trunk Areal Bone Mineral Density (g/cm2)|
+|	|TrunkLBMC	|Left Trunk Bone Mineral Content (g)|
+|	|TrunkLArea	|Left Trunk Area (cm2)|
+|	|TotalLBMD	|Left Total Body Areal Bone Mineral Density (g/cm2)|
+|	|TotalLBMC	|Left Total Body Bone Mineral Content (g)|
+|	|TotalLArea	|Left Total Body Area (cm2)|
+|	|ArmRBMD	|Right Arm Areal Bone Mineral Density (g/cm2)|
+|	|ArmRBMC	|Right Arm Bone Mineral Content (g)|
+|	|ArmRArea	|Right Arm Area (cm2)|
+|	|LegRBMD	|Right Leg Areal Bone Mineral Density (g/cm2)|
+|	|LegRBMC	|Right Leg Bone Mineral Content (g)|
+|	|LegRArea	|Right Leg Area (cm2)|
+|	|TrunkRBMD	|Right Trunk Areal Bone Mineral Density (g/cm2)|
+|	|TrunkRBMC	|Right Trunk Bone Mineral Content (g)|
+|	|TrunkRArea	|Right Trunk Area (cm2)|
+|	|TotalRBMD	|Right Total Body Areal Bone Mineral Density (g/cm2)|
+|	|TotalRBMC	|Right Total Body Bone Mineral Content (g)|
+|	|TotalRArea	|Right Total Body Area (cm2)|
+|	|ArmsBMD	|Arms Areal Bone Mineral Density (g/cm2)|
+|	|ArmsBMC	|Arms Bone Mineral Content (g)|
+|	|ArmsArea	|Arms Area (cm2)|
+|	|LegsBMD	|Legs Areal Bone Mineral Density (g/cm2)|
+|	|LegsBMC	|Legs Bone Mineral Content (g)|
+|	|LegsArea	|Legs Area (cm2)|
+|	|TrunksBMD	|Trunks Areal Bone Mineral Density (g/cm2)|
+|	|TrunksBMC	|Trunks Bone Mineral Content (g)|
+|	|TrunksArea	|Trunks Area (cm2)|
+|	|RibsBMD	|Ribs Areal Bone Mineral Density (g/cm2)|
+|	|RibsBMC	|Ribs Bone Mineral Content (g)|
+|	|RibsArea	|Ribs Area (cm2)|
+|	|PelvisBMD	|Pelvis Areal Bone Mineral Density (g/cm2)|
+|	|PelvisBMC	|Pelvis Bone Mineral Content (g)|
+|	|PelvisArea	|Pelvis Area (cm2)|
+|	|SpineBMD	|Spine Areal Bone Mineral Density (g/cm2)|
+|	|SpineBMC	|Spine Bone Mineral Content (g)|
+|	|SpineArea	|Spine Area (cm2)|
+|	|TotalBMD	|Total Body Areal Bone Mineral Density (g/cm2)|
+|	|TotalBMC	|Total Body Bone Mineral Content (g)|
+|	|TotalArea	|Total Body Area (cm2)|
+|	|TotalTScr	|Total Body T-score|
+|	|TotalZScr	|Total Body Z-score|
+
 |Total Body Ext	|ArmsRegPerFat	|Arms Region Fat Percent(%)|
 |	|ArmsTissue	|Arms Tissue Mass (g)|
 |	|ArmsFat	|Arms Fat Mass (g)|
