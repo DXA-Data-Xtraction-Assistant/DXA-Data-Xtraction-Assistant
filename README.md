@@ -470,9 +470,9 @@ If the Total Body Bone Ext option was selected, a “TotalBodyBoneExt.csv” wou
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
+|YA_Percent	|The mean of a young adult reference (%)|
 |YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
+|AM_Percent	|The mean of an age-matched reference (%)|
 |AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
@@ -511,9 +511,9 @@ If the Lumbar Spine Ext option was selected, a “LumbarSpineExt.csv” would be
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
+|YA_Percent	|The mean of a young adult reference (%)|
 |YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
+|AM_Percent	|The mean of an age-matched reference (%)|
 |AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
@@ -532,9 +532,9 @@ If the Total Hip Ext option was selected, a “TotalHipExt.csv” would be gener
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
+|YA_Percent	|The mean of a young adult reference (%)|
 |YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
+|AM_Percent	|The mean of an age-matched reference (%)|
 |AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
@@ -551,7 +551,7 @@ If the Radius Scan option was selected, a “Rad.csv” would be generated in �
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
+|YA_Percent	|The mean of a young adult reference (%)|
 |YA_T_score	|T-score|
 |AM_Percent	|The mean of an age-matched reference|
 |AM_Z_score	|Z-score|
@@ -761,9 +761,9 @@ If the Total Body Bone Ext option was selected, a “TotalBodyBoneExt.csv” wou
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
+|YA_Percent	|The mean of a young adult reference (%)|
 |YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
+|AM_Percent	|The mean of an age-matched reference (%)|
 |AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
@@ -802,9 +802,9 @@ If the Lumbar Spine Ext option was selected, a “LumbarSpineExt.csv” would be
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
+|YA_Percent	|The mean of a young adult reference (%)|
 |YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
+|AM_Percent	|The mean of an age-matched reference (%)|
 |AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
@@ -823,9 +823,9 @@ If the Total Hip Ext option was selected, a “TotalHipExt.csv” would be gener
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
+|YA_Percent	|The mean of a young adult reference (%)|
 |YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
+|AM_Percent	|The mean of an age-matched reference (%)|
 |AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
@@ -842,9 +842,9 @@ If the Radius Scan option was selected, a “Rad.csv” would be generated in �
 |Patients_Visit	|Visit Number, from the input file name|
 |Region	|Region of DXA measurement|
 |BMD_g/cm2	|Areal Bone Mineral Density (g/cm2)|
-|YA_Percent	|The mean of a young adult reference|
+|YA_Percent	|The mean of a young adult reference (%)|
 |YA_T_score	|T-score|
-|AM_Percent	|The mean of an age-matched reference|
+|AM_Percent	|The mean of an age-matched reference (%)|
 |AM_Z_score	|Z-score|
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
@@ -1357,9 +1357,9 @@ If the Lumbar Spine option was selected, a “LumbarSpine.csv” would be genera
 |Length_cm	|Length (cm)|
 |Width_cm	|Width (cm)|
 |T_score	|T-score|
-|Young_Ref_%	|The mean of a young adult reference|
+|Young_Ref_%	|The mean of a young adult reference (%)|
 |Z_score	|Z-score|
-|Age_Match_%	|The mean of an age-matched reference|
+|Age_Match_%	|The mean of an age-matched reference (%)|
 |ST_Change_%	|ST Change (%)|
 |ST_Change_%/year	|ST Change (%/year)|
 |LT_Change_%	|LT Change (%)|
@@ -1380,9 +1380,9 @@ If the Total Hip option was selected, a “TotalHip.csv” would be generated in
 |BMC_g	|Bone Mineral Content (g)|
 |Area_cm2	|Area (cm2)|
 |T_score	|T-score|
-|Young_Ref_%	|The mean of a young adult reference|
+|Young_Ref_%	|The mean of a young adult reference (%)|
 |Z_score	|Z-score|
-|Age_Match_%	|The mean of an age-matched reference|
+|Age_Match_%	|The mean of an age-matched reference (%)|
 |ST_Change_%	|ST Change (%)|
 |ST_Change_%/year	|ST Change (%/year)|
 |LT_Change_%	|LT Change (%)|
@@ -1405,9 +1405,9 @@ If the Radius Scan option was selected, a “Rad.csv” would be generated in �
 |Length_cm	|Length (cm)|
 |Width_cm	|Width (cm)|
 |T_score	|T-score|
-|Young_Ref_%	|The mean of a young adult reference|
+|Young_Ref_%	|The mean of a young adult reference (%)|
 |Z_score	|Z-score|
-|Age_Match_%	|The mean of an age-matched reference|
+|Age_Match_%	|The mean of an age-matched reference (%)|
 |ST_Change_%	|ST Change (%)|
 |ST_Change_%/year	|ST Change (%/year)|
 |LT_Change_%	|LT Change (%)|
@@ -1431,81 +1431,150 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|Ethnicity	|Patient Ethnicity|
 |	|Height	|Patient Height|
 |	|Weight	|Patient Weight|
-|Total Body Bone	|HeadBMD	|Head Areal Bone Mineral Density (g/cm2)|
-|	|ArmsBMD	|Arms Areal Bone Mineral Density (g/cm2)|
-|	|LegsBMD	|Legs Areal Bone Mineral Density (g/cm2)|
-|	|TrunkBMD	|Trunk Areal Bone Mineral Density (g/cm2)|
-|	|RibsBMD	|Ribs Areal Bone Mineral Density (g/cm2)|
-|	|SpineBMD	|Spine Areal Bone Mineral Density (g/cm2)|
-|	|PelvisBMD	|Pelvis Areal Bone Mineral Density (g/cm2)|
-|	|TotalBMD	|Total Body Areal Bone Mineral Density (g/cm2)|
-|	|TotalTScr	|Total Body T-score|
-|	|TotalZScr	|Total Body Z-score|
-|Total Body Ext	|ArmsTissuePerFat	|Arms Tissue Fat Percent(%)|
-|	|ArmsRegPerFat	|Arms Region Fat Percent(%)|
-|	|ArmsTissue	|Arms Tissue Mass (g)|
-|	|ArmsFat	|Arms Fat Mass (g)|
-|	|ArmsLean	|Arms Lean Mass (g)|
-|	|ArmsBMC	|Arms Bone Mineral Content (g)|
-|	|ArmsTotalMass	|Arms Total Mass (kg)|
-|	|LegsTissuePerFat	|Legs Tissue Fat Percent(%)|
-|	|LegsRegPerFat	|Legs Region Fat Percent(%)|
-|	|LegsTissue	|Legs Tissue Mass (g)|
-|	|LegsFat	|Legs Fat Mass (g)|
-|	|LegsLean	|Legs Lean Mass (g)|
-|	|LegsBMC	|Legs Bone Mineral Content (g)|
-|	|LegsTotalMass	|Legs Total Mass (kg)|
-|	|TrunkTissuePerFat	|Trunk Tissue Fat Percent(%)|
-|	|TrunkRegPerFat	|Trunk Region Fat Percent(%)|
-|	|TrunkTissue	|Trunk Tissue Mass (g)|
-|	|TrunkFat	|Trunk Fat Mass (g)|
-|	|TrunkLean	|Trunk Lean Mass (g)|
-|	|TrunkBMC	|Trunk Bone Mineral Content (g)|
-|	|TrunkTotalMass	|Trunk Total Mass (kg)|
-|	|AndroidTissuePerFat	|Android Tissue Fat Percent(%)|
-|	|AndroidRegPerFat	|Android Region Fat Percent(%)|
-|	|AndroidTissue	|Android Tissue Mass (g)|
-|	|AndroidFat	|Android Fat Mass (g)|
-|	|AndroidLean	|Android Lean Mass (g)|
-|	|AndroidBMC	|Android Bone Mineral Content (g)|
-|	|AndroidTotalMass	|Android Total Mass (kg)|
-|	|GynoidTissuePerFat	|Gynoid Tissue Fat Percent(%)|
-|	|GynoidRegPerFat	|Gynoid Region Fat Percent(%)|
-|	|GynoidTissue	|Gynoid Tissue Mass (g)|
-|	|GynoidFat	|Gynoid Fat Mass (g)|
-|	|GynoidLean	|Gynoid Lean Mass (g)|
-|	|GynoidBMC	|Gynoid Bone Mineral Content (g)|
-|	|GynoidTotalMass	|Gynoid Total Mass (kg)|
-|	|TotalTissuePerFat	|Total Tissue Fat Percent(%)|
-|	|TotalRegPerFat	|Total Region Fat Percent(%)|
-|	|TotalTissue	|Total Tissue Mass (g)|
-|	|TotalFat	|Total Fat Mass (g)|
-|	|TotalLean	|Total Lean Mass (g)|
-|	|TotalBMC	|Total Bone Mineral Content (g)|
-|	|TotalMass	|Total Body Mass (kg)|
-|Lumbar Spine	|L1L4BMD	|L1-L4 Areal Bone Mineral Density (g/cm2)|
-|	|L1L4TScr	|L1-L4 T-score|
-|	|L1L4ZScr	|L1-L4 Z-score|
-|Total Hip  |LFNBMD	|Left Femoral Neck Areal Bone Mineral Density (g/cm2)|
-|	|LFNTScr	|Left Femoral Neck T-score|
-|	|LFNZScr	|Left Femoral Neck Z-score|
-|	|RFNBMD	|Right Femoral Neck Areal Bone Mineral Density (g/cm2)|
+|Total Body Bone	|TotalBMD	|Total Body Areal Bone Mineral Density (g/cm2)|
+|	|TotalBMC*	|Total Bone Mineral Content (g)|
+|	|TotalArea	|Total Area (cm2)|
+|	|TotalLeanMass*	|Total Lean Mass (g)|
+|	|TotalFatMass*	|Total Fat Mass (g)|
+|	|HeadBMD*	|Head Areal Bone Mineral Density (g/cm2)|
+|	|HeadBMC	|Head Bone Mineral Content (g)|
+|	|HeadArea	|Head Area (cm2)|
+|	|HeadLeanMass*	|Head Lean Mass (g)|
+|	|HeadFatMass*	|Head Fat Mass (g)|
+|	|ChestBMD*	|Chest Areal Bone Mineral Density (g/cm2)|
+|	|ChestBMC	|Chest Bone Mineral Content (g)|
+|	|ChestArea	|Chest Area (cm2)|
+|	|ChestLeanMass*	|Chest Lean Mass (g)|
+|	|ChestFatMass*	|Chest Fat Mass (g)|
+|	|MidriffBMD*	|Midriff Areal Bone Mineral Density (g/cm2)|
+|	|MidriffBMC	|Midriff Bone Mineral Content (g)|
+|	|MidriffArea	|Midriff Area (cm2)|
+|	|MidriffLeanMass*	|Midriff Lean Mass (g)|
+|	|MidriffFatMass*	|Midriff Fat Mass (g)|
+|	|PelvisBMD*	|Pelvis Areal Bone Mineral Density (g/cm2)|
+|	|PelvisBMC	|Pelvis Bone Mineral Content (g)|
+|	|PelvisArea	|Pelvis Area (cm2)|
+|	|PelvisLeanMass*	|Pelvis Lean Mass (g)|
+|	|PelvisFatMass*	|Pelvis Fat Mass (g)|
+|	|LLegBMD*	|Left Leg Areal Bone Mineral Density (g/cm2)|
+|	|LLegBMC	|Left Leg Bone Mineral Content (g)|
+|	|LLegArea	|Left Leg Area (cm2)|
+|	|LLegLeanMass*	|Left Leg Lean Mass (g)|
+|	|LLegFatMass*	|Left Leg Fat Mass (g)|
+|	|RLegBMD*	|Right Leg Areal Bone Mineral Density (g/cm2)|
+|	|RLegBMC	|Right Leg Bone Mineral Content (g)|
+|	|RLegArea	|Right Leg Area (cm2)|
+|	|RLegLeanMass*	|Right Leg Lean Mass (g)|
+|	|RLegFatMass*	|Right Leg Fat Mass (g)|
+|	|LArmBMD*	|Left Arm Areal Bone Mineral Density (g/cm2)|
+|	|LArmBMC	|Left Arm Bone Mineral Content (g)|
+|	|LArmArea	|Left Arm Area (cm2)|
+|	|LArmLeanMass*	|Left Arm Lean Mass (g)|
+|	|LArmFatMass*	|Left Arm Fat Mass (g)|
+|	|RArmBMD*	|Right Arm Areal Bone Mineral Density (g/cm2)|
+|	|RArmBMC	|Right Arm Bone Mineral Content (g)|
+|	|RArmArea	|Right Arm Area (cm2)|
+|	|RArmLeanMass*	|Right Arm Lean Mass (g)|
+|	|RArmFatMass*	|Right Arm Fat Mass (g)|
+|Total Body Composition	|TotalMass	|Total Mass (g)|
+|	|HeadTotalMass	|Head Total Mass (g)|
+|	|ChestTotalMass	|Chest Total Mass (g)|
+|	|MidriffTotalMass	|Midriff Total Mass (g)|
+|	|PelvisTotalMass	|Pelvis Total Mass (g)|
+|	|LLegTotalMass	|Left Leg Total Mass (g)|
+|	|RLegTotalMass	|Right Leg Total Mass (g)|
+|	|LArmTotalMass	|Left Arm Total Mass (g)|
+|	|RArmTotalMass	|Right Arm Total Mass (g)|
+|	|TotalFat%	|Total Body Fat (%)|
+|Lumbar Spine	|L2L4BMD	|L2-L4 Areal Bone Mineral Density (g/cm2)|
+|	|L2L4BMC	|L2-L4 Bone Mineral Content (g)|
+|	|L2L4Area	|L2-L4 Area (cm2)|
+|	|L2L4Length	|L2-L4 Length (cm)|
+|	|L2L4Width	|L2-L4 Width (cm)|
+|	|L2L4TScr	|L2-L4 T-score|
+|	|L2L4YoungRef%	|L2-L4 Young Adult Reference (%)|
+|	|L2L4ZScr	|L2-L4 Z-score|
+|	|L2L4AgeMatch%	|L2-L4 Age-Matched Reference (%)|
+|	|L2L4STChange%	|L2-L4 ST change (%)|
+|	|L2L4STChange%/year	|L2-L4 ST change (%/year)|
+|	|L2L4LTChange%	|L2-L4 LT change (%)|
+|	|L2L4LTChange%/year	|L2-L4 LT change (%/year)|
+|	|L2BMD	|L2 Areal Bone Mineral Density (g/cm2)|
+|	|L2BMC	|L2 Bone Mineral Content (g)|
+|	|L2Area	|L2 Area (cm2)|
+|	|L2Length	|L2 Length (cm)|
+|	|L2Width	|L2 Width (cm)|
+|	|L2TScr	|L2 T-score|
+|	|L2ZScr	|L2 Z-score|
+|	|L3BMD	|L3 Areal Bone Mineral Density (g/cm2)|
+|	|L3BMC	|L3 Bone Mineral Content (g)|
+|	|L3Area	|L3 Area (cm2)|
+|	|L3Length	|L3 Length (cm)|
+|	|L3Width	|L3 Width (cm)|
+|	|L3TScr	|L3 T-score|
+|	|L3ZScr	|L3 Z-score|
+|	|L4BMD	|L4 Areal Bone Mineral Density (g/cm2)|
+|	|L4BMC	|L4 Bone Mineral Content (g)|
+|	|L4Area	|L4 Area (cm2)|
+|	|L4Length	|L4 Length (cm)|
+|	|L4Width	|L4 Width (cm)|
+|	|L4TScr	|L4 T-score|
+|	|L4ZScr	|L4 Z-score|
+|	|TotalsBMDBMD	|Total sBMD Areal Bone Mineral Density (g/cm2)|
+|	|TotalsBMDBMC	|Total sBMD Bone Mineral Content (g)|
+|	|TotalsBMDArea	|Total sBMD Area (cm2)|
+|	|TotalsBMDLength	|Total sBMD Length (cm)|
+|	|TotalsBMDWidth	|Total sBMD Width (cm)|
+|	|TotalsBMDTScr	|Total sBMD T-score|
+|	|TotalsBMDZScr	|Total sBMD Z-score|
+|Total Hip  |RFNBMD	|Right Femoral Neck Areal Bone Mineral Density (g/cm2)|
+|	|RFNBMC	|Right Femoral Neck Bone Mineral Content (g)|
+|	|RFNArea	|Right Femoral Neck Area (cm2)|
 |	|RFNTScr	|Right Femoral Neck T-score|
 |	|RFNZScr	|Right Femoral Neck Z-score|
-|	|LTHBMD	|Left Total Hip Neck Areal Bone Mineral Density (g/cm2)|
-|	|LTHTScr	|Left Total Hip Neck T-score|
-|	|LTHZScr	|Left Total Hip Neck Z-score|
+|	|RGTBMD	|Right Greater Trochanter Neck Areal Bone Mineral Density (g/cm2)|
+|	|RGTBMC	|Right Greater Trochanter Neck Bone Mineral Content (g)|
+|	|RGTArea	|Right Greater Trochanter Neck Area (cm2)|
+|	|RGTTScr	|Right Greater Trochanter Neck T-score|
+|	|RGTZScr	|Right Greater Trochanter Neck Z-score|
 |	|RTHBMD	|Right Total Hip Neck Areal Bone Mineral Density (g/cm2)|
+|	|RTHBMC	|Right Total Hip Neck Bone Mineral Content (g)|
+|	|RTHArea	|Right Total Hip Neck Area (cm2)|
 |	|RTHTScr	|Right Total Hip Neck T-score|
 |	|RTHZScr	|Right Total Hip Neck Z-score|
+|	|LFNBMD	|Left Femoral Neck Areal Bone Mineral Density (g/cm2)|
+|	|LFNBMC	|Left Femoral Neck Bone Mineral Content (g)|
+|	|LFNArea	|Left Femoral Neck Area (cm2)|
+|	|LFNTScr	|Left Femoral Neck T-score|
+|	|LFNZScr	|Left Femoral Neck Z-score|
+|	|LGTBMD	|Left Greater Trochanter Neck Areal Bone Mineral Density (g/cm2)|
+|	|LGTBMC	|Left Greater Trochanter Neck Bone Mineral Content (g)|
+|	|LGTArea	|Left Greater Trochanter Neck Area (cm2)|
+|	|LGTTScr	|Left Greater Trochanter Neck T-score|
+|	|LGTZScr	|Left Greater Trochanter Neck Z-score|
+|	|LTHBMD	|Left Total Hip Neck Areal Bone Mineral Density (g/cm2)|
+|	|LTHBMC	|Left Total Hip Neck Bone Mineral Content (g)|
+|	|LTHArea	|Left Total Hip Neck Area (cm2)|
+|	|LTHTScr	|Left Total Hip Neck T-score|
+|	|LTHZScr	|Left Total Hip Neck Z-score|
 |	|MeanTHTScr	|Mean Total Hip Neck T-score|
+|	|MeanTHBMC	|Mean Total Hip Neck Bone Mineral Content (g)|
 |	|MeanTHBMD	|Mean Total Hip Neck Areal Bone Mineral Density (g/cm2)|
-|Radius Scan |Rad1/3BMD |Third-distal Areal Bone Mineral Density (g/cm2)|
-| |Ulna1/3BMD |Third-distal Ulna Areal Bone Mineral Density (g/cm2)|
-| |Both1/3BMD |Third-distal Radius + Ulna Areal Bone Mineral Density (g/cm2)|
-| |Rad1/3TScr |Third-distal T-score|
-| |Rad1/3ZScr |Third-distal Z-score|
-
+|Radius Scan |Dist.R+UBMD |Distal Radius + Ulna Areal Bone Mineral Density (g/cm2)|
+| |Dist.R+UBMC |Distal Radius + Ulna Bone Mineral Content (g)|
+| |Dist.R+UArea |Distal Radius + Ulna Area (cm2)|
+| |Dist.R+UTScr |Distal Radius + Ulna T-score|
+| |Dist.R+UZScr |Distal Radius + Ulna Z-score|
+| |Prox.R+UBMD |Proximal Radius + Ulna Areal Bone Mineral Density (g/cm2)|
+| |Prox.R+UBMC |Proximal Radius + Ulna Bone Mineral Content (g)|
+| |Prox.R+UArea |Proximal Radius + Ulna Area (cm2)|
+| |Prox.R+UTScr |Proximal Radius + Ulna T-score|
+| |Prox.R+UZScr |Proximal Radius + Ulna Z-score|
+| |Prox.RBMD |Proximal Radius Areal Bone Mineral Density (g/cm2)|
+| |Prox.RBMC |Proximal Radius Bone Mineral Content (g)|
+| |Prox.RArea |Proximal Radius Area (cm2)|
+| |Prox.RTScr |Proximal Radius T-score|
+| |Prox.RZScr |Proximal Radius Z-score|
 		
 
 
