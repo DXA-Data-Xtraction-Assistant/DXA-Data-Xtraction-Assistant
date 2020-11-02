@@ -555,9 +555,32 @@ A “MergedOutput.csv” would be generated in the output path ([Figure 6: Merge
 |	|TotBMD	|Total Body Areal Bone Mineral Density (g/cm2)|
 |	|TotTScr	|Total Body T-score|
 |	|TotZScr	|Total Body Z-score|
-|Total Body Ext	|LArmBMC	|Left Arm Bone Mineral Content (g)|
-|	|LArmFM*	|Left Arm Fat Mass (g)|
-|	|LArmLM	|Left Arm Lean Mass (g)|
+|Total Body Ext	|ArmsRegPerFat	|Arms Region Fat Percent(%)|
+|	|ArmsTissue	|Arms Tissue Mass (g)|
+|	|ArmsFat	|Arms Fat Mass (g)|
+|	|ArmsLean	|Arms Lean Mass (g)|
+|	|ArmsBMC	|Arms Bone Mineral Content (g)|
+|	|ArmsTotalMass	|Arms Total Mass (kg)|
+|	|ArmRRegPerFat	|Right Arm Region Fat Percent(%)|
+|	|ArmRTissue	|Right Arms Tissue Mass (g)|
+|	|ArmRFat	|Right Arms Fat Mass (g)|
+|	|ArmRLean	|Right Arms Lean Mass (g)|
+|	|ArmRBMC	|Right Arms Bone Mineral Content (g)|
+|	|ArmRTotalMass	|Right Arms Total Mass (kg)|
+|	|ArmLRegPerFat	|Left Arm Region Fat Percent(%)|
+|	|ArmLTissue	|Left Arms Tissue Mass (g)|
+|	|ArmLFat	|Left Arms Fat Mass (g)|
+|	|ArmLLean	|Left Arms Lean Mass (g)|
+|	|ArmLBMC	|Left Arms Bone Mineral Content (g)|
+|	|ArmLTotalMass	|Left Arms Total Mass (kg)|
+|	|ArmDRegPerFat	|Left Arm Region Fat Percent(%)|
+|	|ArmDTissue	|Arms Tissue Mass Difference (g)|
+|	|ArmDFat	|Arms Fat Mass Difference (g)|
+|	|ArmDLean	|Arms Lean Mass Difference (g)|
+|	|ArmDBMC	|Arms Bone Mineral Content Difference (g)|
+|	|ArmDTotalMass	|Arms Total Mass Difference (kg)|
+
+
 |	|LArmLM+BMC*	|Left Arm Lean Mass (g) + Bone Mineral Content (g)|
 |	|LArmTotM*	|Left Arm Total Mass (g)|
 |	|LArmBF%*	|Left Arm Body Fat (%)|
