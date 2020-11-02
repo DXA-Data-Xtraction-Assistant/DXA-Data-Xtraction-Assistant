@@ -15,15 +15,16 @@ A software used to convert DXA output from xps format into csv files.
   - [Scan Type Selection](#Scan-Type-Selection)
 
 *[Output Details](#Output-Details)
-  - [Single Type](#Single-Type)
-    - [Demographic](#Demographic)
-    - [Total Hip](#Total-Hip)
-    - [Lumbar Spine](#Lumbar-Spine)
-    - [Total Body Bone](#Total-Body-Bone)
-    - [Total Body Ext](#Total-Body-Ext)
-    - [Total Body Composition](#Total-Body-Composition)
-    - [Radius Scan](#Radius-Scan)
-  - [Merged Output](#Merged-Output)
+  - [Hologic](#Hologic)
+    - [Single Type](#Single-Type)
+      - [Demographic](#Demographic)
+      - [Total Hip](#Total-Hip)
+      - [Lumbar Spine](#Lumbar-Spine)
+      - [Total Body Bone](#Total-Body-Bone)
+      - [Total Body Ext](#Total-Body-Ext)
+      - [Total Body Composition](#Total-Body-Composition)
+      - [Radius Scan](#Radius-Scan)
+    - [Merged Output](#Merged-Output)
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
