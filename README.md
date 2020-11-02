@@ -17,7 +17,7 @@ A software used to convert DXA output from xps format into csv files.
 
 *[Output Details](#Output-Details)
   - [Hologic](#Hologic)
-    - [Single Type](#Single-Type)
+    - [Single Type](#Output-Details##Hologic###Single-Type)
       - [Demographic](#Demographic)
       - [Total Body Bone](#Total-Body-Bone)
       - [Total Body Composition](#Total-Body-Composition)
