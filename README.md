@@ -88,7 +88,7 @@ The objective of the DXA Data Xtraction Assistant is to automate conversion for 
 |LSext|Lumbar Spine Extension|
 |DH|Dual Hip|
 |DHext|Dual Hip Extension|
-|Radius|Radius Scan|
+|Rad|Radius Scan|
 
 For example, a patient indexed as SSSH0001 went for a DXA scan at the 2nd time, then the Body Composition scan output should be saved as SSSH0001\_2\_BC.xps (do not include any other characters). 
 
