@@ -1,7 +1,7 @@
 # DXA Data Xtraction Assistant 
 A software used to convert DXA output from xps format into csv files.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3974993.svg)](https://doi.org/10.5281/zenodo.3974993)
+[![DOI](https://zenodo.org/badge/292389811.svg)](https://zenodo.org/badge/latestdoi/292389811)
 
 ***
 
