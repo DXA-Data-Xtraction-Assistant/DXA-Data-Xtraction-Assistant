@@ -35,18 +35,24 @@ After your reports have been configured, the DXA reports should be saved using t
 
 <div align="center">
 
-## PatientID_Visit#_ScanType 
+## PatientID\_Visit#\_ScanType 
 </div>
 
+**PatientID**: The Patient ID is the number used to identify or index patients. This identifier must be unique to each patient and composed of only letters and numbers (no spaces). There is no character limit for the Patient ID. The Patient ID must be followed by an underscore, "\_".
 
-PatientID: The Patient ID is the number used to identify or index patients. This identifier must be unique to each patient and composed of only letters and numbers (no spaces). There is no character limit for the Patient ID. The Patient ID must be followed by an underscore, “_”.
+**Visit#**: The Visit Number denotes the number of times, or visits, that a patient is scanned using the DXA machine. 
+The visit number must be a number but there is no limit to the length. For example, for a pre and post study design, the visit number would be denoted using "1" and "2". The Visit# must be followed by an underscore, "\_". 
 
-Visit#: The Visit Number denotes the number of times, or visits, that a patient is scanned using the DXA machine. 
-The visit number must be a number but there is no limit to the length. For example, for a pre and post study design, the visit number would be denoted using “1” and “2”. The Visit# must be followed by an underscore, “_”. 
+**ScanType**: Lastly, the Scan Type is the suffix that denotes the type of DXA scan report. See the suffix name for each type of DXA report in Table 1 below. 
 
-ScanType: Lastly, the Scan Type is the suffix that denotes the type of DXA scan report. See the suffix name for each type of DXA report in Table 1 below. 
+| Scan Type	| Main Report	| Needed file name format	| Enhanced Report	| Needed file name format|
+|---|---|---|---|---|
+|Total Body	| Total Body Densitometry	| PatientID\_visit#\_Bone	| Total Body Densitometry Enhanced Analysis	| PatientID\_visit#\_BoneExt |
+| |Total Body Composition	| PatientID\_visit#\_BC	| Total Body Composition Enhanced Analysis	| PatientID\_visit#\_BCExt |
+| Lumbar Spine	| Lumbar Spine Densitometry	| PatientID\_visit#\_LS	| Lumbar Spine Densitometry Enhanced Analysis	| PatientID\_visit#\_LSExt |
+| Proximal Femur	| Dual Total Hip Densitometry |	PatientID\_visit#\_DH	| Dual Total Hip Densitometry Enhanced Analysis	| PatientID\_visit#\_DHExt |
+| Radius	| L or R Radial Densitometry	| PatientID\_visit#\_Rad	| only the left OR the right radial scans can be processed at a time in the application.| |
 
-Insert Table 1 here
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
