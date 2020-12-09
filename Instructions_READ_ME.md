@@ -16,7 +16,7 @@ A software used to convert DXA output from xps format into csv files.
 
 * [Troubleshooting/FAQ’s](#TroubleshootingFAQs)
     * [Formatting and Exporting your DXA scan reports](#Formatting-and-exporting-your-DXA-scan-reports)
-        * [Can I name my scans whatever I want?][#Can-I-name-my-scans-whatever-I-want]
+        * [Can I name my scans whatever I want?](#Can-I-name-my-scans-whatever-I-want)
 
 
 
