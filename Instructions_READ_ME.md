@@ -54,7 +54,6 @@ The visit number must be a number but there is no limit to the length. For examp
 | Radius	| L or R Radial Densitometry	| PatientID\_visit#\_Rad	| only the left OR the right radial scans can be processed at a time in the application.| |
 
 
-
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
 # Step 2: Downloading and saving the DXA2 application
@@ -62,6 +61,7 @@ The visit number must be a number but there is no limit to the length. For examp
 DXA2 is a standalone application constructed using Python 3.7.  No other software is required to use the DXA2.  The process to download and initialize the DXA2 can also be viewed using the second tutorial video.
 
 On the main webpage (https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant) click on the DXA2_DOWNLOAD_ME_V1.exe file in the first box and then click the “Download” button near the middle of the screen in the gray box. Once the DXA2 has finished downloading, you will find the application in your “Downloads” folder. The DXA2 can be moved to another location on your computer or hard drive by dragging and dropping (or by using the cut and paste functions). If you have issues, please review the troubleshooting/FAQ’s at the end of these instructions.  
+
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
