@@ -12,12 +12,12 @@ A software used to convert DXA output from xps format into csv files.
 
 * [Step 2: Downloading and saving the DXA<sup>2</sup> application](#Step-2-Downloading-and-saving-the-DXA2-application)
 
-* [Step 3: Using the DXA<sup>2</sup> application](#Step-3-Using-the-DXA<sup>2</sup>-application)
+* [Step 3: Using the DXA<sup>2</sup> application](#Step-3-Using-the-DXA2-application)
 
 * [Troubleshooting/FAQ’s](#TroubleshootingFAQs)
     * [Formatting and Exporting your DXA scan reports](#Formatting-and-Exporting-your-DXA-scan-reports)
-    * [Downloading and Saving DXA<sup>2</sup>](#Downloading-and-Saving-DXA<sup>2</sup>)
-    * [Using the DXA<sup>2</sup> application](#Using-the-DXA<sup>2</sup>-application)
+    * [Downloading and Saving DXA<sup>2</sup>](#Downloading-and-Saving-DXA2)
+    * [Using the DXA<sup>2</sup> application](#Using-the-DXA2-application)
 
 
 
