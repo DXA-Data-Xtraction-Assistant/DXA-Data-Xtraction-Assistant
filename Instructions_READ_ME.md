@@ -94,7 +94,7 @@ No. The patient or participant ID's can be any alphanumeric sequence but cannot 
 
 ### I did a scan not listed in Table 1 and don’t know how to save it. 
 
-The DXA machine has a variety of capabilities (e.g. aortic calcification) not listed in Table 1 in the instructions. If this is the case, please email the administrator at DXA<sup>2</sup>@health.missouri.edu and they will work with you directly. 
+The DXA machine has a variety of capabilities (e.g. aortic calcification) not listed in Table 1 in the instructions. If this is the case, please email the administrator at DXA2@health.missouri.edu and they will work with you directly. 
 
 ### Why can’t I just do Steps 1 to 3 on my DXA computer? 
 
@@ -134,7 +134,7 @@ Navigate to your downloads folder and search there. If the DXA<sup>2</sup> is no
 
 This can mean one of two things. 
 First, double check that you **ONLY** have *.pdf* or *.xps* files in the input folder and check that all DXA scans are named using the correct format for the DXA<sup>2</sup> (see Table 1). Even one mistake in the file name will prevent the DXA<sup>2</sup> from working. 
-Second, if your reports are not configured properly or you selected the wrong manufacture/software version for your reports, the DXA<sup>2</sup> won't be able to read your DXA scans. As noted in the instructions and the tutorial videos, if your DXA software version is not listed, please email the DXA<sup>2</sup> administrator at DXA<sup>2</sup>@health.missouri.edu and we will work with you directly. 
+Second, if your reports are not configured properly or you selected the wrong manufacture/software version for your reports, the DXA<sup>2</sup> won't be able to read your DXA scans. As noted in the instructions and the tutorial videos, if your DXA software version is not listed, please email the DXA<sup>2</sup> administrator at DXA2@health.missouri.edu and we will work with you directly. 
 
 ### In my data files (either merged or abbreviated), I am missing data. 
 
@@ -145,7 +145,7 @@ Be sure to double check that the report containing that data was correctly named
 In your output folder, you will find a data dictionary that lists all variables and their abbreviations.
 
 ### I need data from a report not listed. 
-If you have data that is not extracted by the DXA<sup>2</sup>, please email the DXA<sup>2</sup> administrator at DXA<sup>2</sup>@health.missouri.edu and we will work with you directly. 
+If you have data that is not extracted by the DXA<sup>2</sup>, please email the DXA<sup>2</sup> administrator at DXA2@health.missouri.edu and we will work with you directly. 
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
