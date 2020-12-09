@@ -14,7 +14,7 @@ A software used to convert DXA output from xps format into csv files.
 
 *[Step 3: Using the DXA2 application](#Step-3-Using-the-DXA2-application)
 
-*[Troubleshooting/FAQ’s](#Troubleshooting-FAQ-s)
+*[Troubleshooting/FAQ’s](#TroubleshootingFAQs)
 
 
 
