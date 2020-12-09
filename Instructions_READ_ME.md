@@ -15,10 +15,9 @@ A software used to convert DXA output from xps format into csv files.
 * [Step 3: Using the DXA2 application](#Step-3-Using-the-DXA2-application)
 
 * [Troubleshooting/FAQ’s](#TroubleshootingFAQs)
-    * [Formatting and Exporting your DXA scan reports](#Formatting-and-exporting-your-DXA-scan-reports)
-        * [Can I name my scans whatever I want?](#Can-I-name-my-scans-whatever-I-want)
-        * [I did a scan not listed in Table 1 and don’t know how to save it.](#I-did-a-scan-not-listed-in-Table-1-and-dont-know-how-to-save-it)
-        * [Why can’t I just do Steps 1-3 on my DXA computer?](#Why-cant-I-just-do-Steps-13-on-my-DXA-computer?)
+    * [Formatting and Exporting your DXA scan reports](#Formatting-and-Exporting-your-DXA-scan-reports)
+    * [Downloading and Saving DXA2](#Downloading-and-Saving-DXA2)
+    * [Using the DXA2 application](#Using-the-DXA2-application)
 
 
 
@@ -85,7 +84,7 @@ Tips for success:
 
 # Troubleshooting/FAQ’s
 
-## Formatting and exporting your DXA scan reports
+## Formatting and Exporting your DXA scan reports
 
 ### Can I name my scans whatever I want? 
 
@@ -95,28 +94,53 @@ No. The patient or participant ID's can be any alphanumeric sequence but cannot 
 
 The DXA machine has a variety of capabilities (e.g. aortic calcification) not listed in Table 1 in the instructions. If this is the case, please email the administrator at DXA2@health.missouri.edu and they will work with you directly. 
 
-### Why can’t I just do Steps 1-3 on my DXA computer? 
+### Why can’t I just do Steps 1 to 3 on my DXA computer? 
 
-Most DXA manufactures discourage users from connecting their DXA computer to the internet. However, if your DXA computer is internet-enabled, you can follow steps 2 and 3 on your DXA computer. If your DXA computer is not connected to the internet, be sure to move all reconfigured and/or renamed DXA reports (.xps or .pdf files) to an external hard drive for transport to your Windows computer of choice.
+Most DXA manufactures discourage users from connecting their DXA computer to the internet. However, if your DXA computer is internet-enabled, you can follow steps 2 and 3 on your DXA computer. If your DXA computer is not connected to the internet, be sure to move all reconfigured and/or renamed DXA reports (*.xps* or *.pdf* files) to an external hard drive for transport to your Windows computer of choice.
 
-Can I share this resource and do I need to pay for something? The DXA2 is free to use and share. The DXA2 was created to save time, eliminate errors, and expand the amount of DXA data available for use without associated increased costs. We encourage you to share the DXA2 with your colleagues. All that we require is that the DXA2 is properly cited when utilizing data extracted using the DXA2 (include our citation). 
+### Can I share this resource and do I need to pay for something? 
 
-Downloading and Saving DXA2
+The DXA2 is free to use and share. The DXA2 was created to save time, eliminate errors, and expand the amount of DXA data available for use without associated increased costs. We encourage you to share the DXA2 with your colleagues. All that we require is that the DXA2 is properly cited when utilizing data extracted using the DXA2 ( **include our citation** ). 
 
-Why is this not working on my Mac? Currently the DXA2 does not work on Apple products.
 
-When I try to open DXA2, Microsoft Defender stops me from running the application. The first time you download and use the DXA2, click “More info” and then click “Run anyway”. 
-My computer tells me: This app can’t run on your PC. If this is the case, try reopening the DXA2 by right clicking and selecting “Run as an administrator”.  Then select “yes” to run and open the application.
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
-I can’t find the download file (.exe file). Navigate to your downloads folder and search there. If the DXA2 is not located there, return to the GitHub site and retry downloading. Ensure you don’t have any pop-up blockers inhibiting the download.
-Using the DXA2 application
+## Downloading and Saving DXA2
 
-When I click “transform” or “merge”, I don’t get a confirmation box/nothing happens. This can mean one of two things. First, double check that you ONLY have .pdf or .xps files in the input folder and check that all DXA scans are named using the correct format for the DXA2 (see Table 1). Even one mistake in the file name will prevent the DXA2 from working. Second, if your reports are not configured properly or you selected the wrong manufacture/software version for your reports, the DXA2 won’t be able to read your DXA scans. As noted in the instructions and the tutorial videos, if your DXA software version is not listed, please email the DXA2 administrator at DXA2@health.missouri.edu and we will work with you directly. 
+### Why is this not working on my Mac? 
 
-In my data files (either merged or abbreviated), I am missing data. Be sure to double check that the report containing that data was correctly named using the DXA2 format. For instance, if you saved the radial scans as “_Radius” instead of “_Rad”, the DXA2 will not retrieve those data. 
-How do I know what these abbreviated variable names mean? In your output folder, you will find a data dictionary that lists all variables and their abbreviations.
+Currently the DXA2 does not work on Apple products.
 
-I need data from a report not listed. If you have data that is not extracted by the DXA2, please email the DXA2 administrator at DXA2@health.missouri.edu and we will work with you directly. 
+### When I try to open DXA2, Microsoft Defender stops me from running the application. 
+
+The first time you download and use the DXA2, click “More info” and then click "Run anyway". 
+
+### My computer tells me: This app can’t run on your PC. 
+
+If this is the case, try reopening the DXA2 by right clicking and selecting "Run as an administrator".  Then select "yes" to run and open the application.
+
+### I can’t find the download file (*.exe* file). 
+
+Navigate to your downloads folder and search there. If the DXA2 is not located there, return to the GitHub site and retry downloading. Ensure you don’t have any pop-up blockers inhibiting the download.
+
+## Using the DXA2 application
+
+### When I click "transform" or "merge", I don’t get a confirmation box/nothing happens. 
+
+This can mean one of two things. 
+First, double check that you **ONLY** have *.pdf* or *.xps* files in the input folder and check that all DXA scans are named using the correct format for the DXA2 (see Table 1). Even one mistake in the file name will prevent the DXA2 from working. 
+Second, if your reports are not configured properly or you selected the wrong manufacture/software version for your reports, the DXA2 won't be able to read your DXA scans. As noted in the instructions and the tutorial videos, if your DXA software version is not listed, please email the DXA2 administrator at DXA2@health.missouri.edu and we will work with you directly. 
+
+### In my data files (either merged or abbreviated), I am missing data. 
+
+Be sure to double check that the report containing that data was correctly named using the DXA2 format. For instance, if you saved the radial scans as "\_Radius" instead of “_Rad”, the DXA2 will not retrieve those data. 
+
+### How do I know what these abbreviated variable names mean? 
+
+In your output folder, you will find a data dictionary that lists all variables and their abbreviations.
+
+### I need data from a report not listed. 
+If you have data that is not extracted by the DXA2, please email the DXA2 administrator at DXA2@health.missouri.edu and we will work with you directly. 
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
