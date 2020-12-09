@@ -24,22 +24,18 @@ Different software versions display and organize DXA data differently. At your D
 
 Please scroll to find the software version that matches or is closest to what you are using and ensure your reports are configured to match these examples. Each DXA scan report for use in the DXA2 should be saved to an external hard drive as either an *.xps* or *.pdf* file. Then, you can either transfer the scans from the external hard drive to a location on the computer where the DXA2 application is located (or will be downloaded) or use the DXA2 on the computer and save all outputs to the external hard drive.
 
-*GE
-  *GE Prodigy – enCORE v.12  
-  
-  *GE Prodigy – enCORE v.16      
-  
-  *GE iDXA – enCORE v.17 & 18
-
-*Hologic Horizon – Apex v 5.5
-
-*Norland ELITE or XR-800 – Illuminatus v. 4.7.5
+* GE
+  * GE Prodigy – enCORE v.12
+  * GE Prodigy – enCORE v.16      
+  * GE iDXA – enCORE v.17 & 18
+* Hologic Horizon – Apex v 5.5
+* Norland ELITE or XR-800 – Illuminatus v. 4.7.5
 
 After your reports have been configured, the DXA reports should be saved using the following file naming convention: 
 
 <div align="center">
 
-** PatientID_Visit#_ScanType **
+** PatientID_VisitNumber_ScanType **
 </div>
 
 
