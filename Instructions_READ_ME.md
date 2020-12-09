@@ -8,7 +8,7 @@ A software used to convert DXA output from xps format into csv files.
 **Thanks for your interest in using the DXA2. Using the DXA2 for the first time requires three simple steps and we encourage you to read these instructions and watch the corresponding tutorial videos before trying to use the DXA2 for the first time. Links to the three videos can be found here (need links to videos).**
 
 # Content
-*[Step 1: Formatting and exporting your DXA scan reports](#Step-1--Formatting-and-exporting-your-DXA-scan-reports)
+*[Step 1: Formatting and exporting your DXA scan reports](#Step-1-Formatting-and-exporting-your-DXA-scan-reports)
 
 *[Step 2: Downloading and saving the DXA2 application](#Step-2-Downloading-and-saving-the-DXA2-application)
 
@@ -18,7 +18,7 @@ A software used to convert DXA output from xps format into csv files.
 
 
 
-# Step 1 - Formatting and exporting your DXA scan reports
+# Step 1: Formatting and exporting your DXA scan reports
 
 Different software versions display and organize DXA data differently. At your DXA computer ensure that the DXA reports to be extracted are formatted correctly. This can be accomplished by changing the report configurations, if needed, as shown in the first tutorial video.
 
@@ -46,7 +46,7 @@ Insert Table 1 here
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
-# Step 2 - Downloading and saving the DXA2 application
+# Step 2: Downloading and saving the DXA2 application
 
 DXA2 is a standalone application constructed using Python 3.7.  No other software is required to use the DXA2.  The process to download and initialize the DXA2 can also be viewed using the second tutorial video.
 
@@ -54,7 +54,7 @@ On the main webpage (https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xt
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
-# Step 3 - Using the DXA2 application
+# Step 3: Using the DXA2 application
 
 Once you have successfully downloaded the DXA2, it is time to use it! Double click the DXA2 .exe file (femur icon) or right click and select “Run as Administrator”. The first time you open DXA2, it may take a minute or two to load. After the initial use, the DXA2 will load faster. You will be greeted by an introduction page that provides a link to the GitHub site. We encourage you to read all of these written instructions and view all three tutorial videos prior to using the DXA2. 
 
