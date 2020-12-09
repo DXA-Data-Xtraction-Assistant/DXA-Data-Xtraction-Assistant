@@ -8,7 +8,7 @@ A software used to convert DXA output from xps format into csv files.
 **Thanks for your interest in using the DXA2. Using the DXA2 for the first time requires three simple steps and we encourage you to read these instructions and watch the corresponding tutorial videos before trying to use the DXA2 for the first time. Links to the three videos can be found here (need links to videos).**
 
 # Content
-*[Step 1: Formatting and exporting your DXA scan reports](#Step-1-Formatting-and-exporting-your-DXA-scan-reports)
+*[Step 1: Formatting and exporting your DXA scan reports](#Step-1--Formatting-and-exporting-your-DXA-scan-reports)
 
 *[Step 2: Downloading and saving the DXA2 application](#Step-2-Downloading-and-saving-the-DXA2-application)
 
