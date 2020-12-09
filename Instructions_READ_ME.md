@@ -35,7 +35,7 @@ After your reports have been configured, the DXA reports should be saved using t
 
 <div align="center">
 
-** PatientID_VisitNumber_ScanType **
+# PatientID_Visit#_ScanType 
 </div>
 
 
