@@ -10,7 +10,7 @@ A software used to convert DXA output from xps format into csv files.
 # Content
 * [Step 1: Formatting and exporting your DXA scan reports](#Step-1-Formatting-and-exporting-your-DXA-scan-reports)
 
-* [Step 2: Downloading and saving the DXA<sup>2</sup> application](#Step-2-Downloading-and-saving-the-DXA<sup>2</sup>-application)
+* [Step 2: Downloading and saving the DXA<sup>2</sup> application](#Step-2-Downloading-and-saving-the-DXA2-application)
 
 * [Step 3: Using the DXA<sup>2</sup> application](#Step-3-Using-the-DXA<sup>2</sup>-application)
 
