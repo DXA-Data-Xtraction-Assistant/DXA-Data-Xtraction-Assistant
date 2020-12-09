@@ -48,7 +48,7 @@ The visit number must be a number but there is no limit to the length. For examp
 
 **ScanType**: Lastly, the Scan Type is the suffix that denotes the type of DXA scan report. See the suffix name for each type of DXA report in Table 1 below. 
 
-*Table 1: Guide for how to rename DXA reports for use with DXA2. *
+*Table 1: Guide for how to rename DXA reports for use with DXA2.*
 
 | Scan Type	| Main Report	| Needed file name format	| Enhanced Report	| Needed file name format|
 |---|---|---|---|---|
