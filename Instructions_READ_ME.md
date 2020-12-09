@@ -22,17 +22,26 @@ A software used to convert DXA output from xps format into csv files.
 
 Different software versions display and organize DXA data differently. At your DXA computer ensure that the DXA reports to be extracted are formatted correctly. This can be accomplished by changing the report configurations, if needed, as shown in the first tutorial video.
 
-Please scroll to find the software version that matches or is closest to what you are using and ensure your reports are configured to match these examples. Each DXA scan report for use in the DXA2 should be saved to an external hard drive as either an xps or .pdf file. Then, you can either transfer the scans from the external hard drive to a location on the computer where the DXA2 application is located (or will be downloaded) or use the DXA2 on the computer and save all outputs to the external hard drive.
+Please scroll to find the software version that matches or is closest to what you are using and ensure your reports are configured to match these examples. Each DXA scan report for use in the DXA2 should be saved to an external hard drive as either an *.xps* or *.pdf* file. Then, you can either transfer the scans from the external hard drive to a location on the computer where the DXA2 application is located (or will be downloaded) or use the DXA2 on the computer and save all outputs to the external hard drive.
 
-GE Prodigy – enCORE v.12     
-GE Prodigy – enCORE v.16      
-GE iDXA – enCORE v.17 & 18
-Hologic Horizon – Apex v 5.5
-Norland ELITE or XR-800 – Illuminatus v. 4.7.5
+*GE
+  *GE Prodigy – enCORE v.12  
+  
+  *GE Prodigy – enCORE v.16      
+  
+  *GE iDXA – enCORE v.17 & 18
+
+*Hologic Horizon – Apex v 5.5
+
+*Norland ELITE or XR-800 – Illuminatus v. 4.7.5
 
 After your reports have been configured, the DXA reports should be saved using the following file naming convention: 
 
-PatientID_Visit#_ScanType
+<div align="center">
+
+** PatientID_Visit#_ScanType **
+</div>
+
 
 PatientID: The Patient ID is the number used to identify or index patients. This identifier must be unique to each patient and composed of only letters and numbers (no spaces). There is no character limit for the Patient ID. The Patient ID must be followed by an underscore, “_”.
 
@@ -97,3 +106,4 @@ How do I know what these abbreviated variable names mean? In your output folder,
 I need data from a report not listed. If you have data that is not extracted by the DXA2, please email the DXA2 administrator at DXA2@health.missouri.edu and we will work with you directly. 
 
 
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
