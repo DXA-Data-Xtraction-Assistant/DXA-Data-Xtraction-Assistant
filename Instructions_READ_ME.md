@@ -8,13 +8,15 @@ A software used to convert DXA output from xps format into csv files.
 **Thanks for your interest in using the DXA2. Using the DXA2 for the first time requires three simple steps and we encourage you to read these instructions and watch the corresponding tutorial videos before trying to use the DXA2 for the first time. Links to the three videos can be found here (need links to videos).**
 
 # Content
-*[Step 1: Formatting and exporting your DXA scan reports](#Step-1-Formatting-and-exporting-your-DXA-scan-reports)
+* [Step 1: Formatting and exporting your DXA scan reports](#Step-1-Formatting-and-exporting-your-DXA-scan-reports)
 
-*[Step 2: Downloading and saving the DXA2 application](#Step-2-Downloading-and-saving-the-DXA2-application)
+* [Step 2: Downloading and saving the DXA2 application](#Step-2-Downloading-and-saving-the-DXA2-application)
 
-*[Step 3: Using the DXA2 application](#Step-3-Using-the-DXA2-application)
+* [Step 3: Using the DXA2 application](#Step-3-Using-the-DXA2-application)
 
-*[Troubleshooting/FAQ’s](#TroubleshootingFAQs)
+* [Troubleshooting/FAQ’s](#TroubleshootingFAQs)
+    * [Formatting and Exporting your DXA scan reports](#Formatting-and-exporting-your-DXA-scan-reports)
+        * [Can I name my scans whatever I want?][#Can-I-name-my-scans-whatever-I-want]
 
 
 
@@ -81,9 +83,11 @@ Tips for success:
 
 # Troubleshooting/FAQ’s
 
-Formatting and Exporting your DXA scan reports
+## Formatting and exporting your DXA scan reports
 
-Can I name my scans whatever I want? No. The patient or participant ID’s can be any alphanumeric sequence but cannot contain spaces. The naming format for each DXA report is PatientID_Visit#_ScanType. This format is how the DXA2 will correctly identify, transform, and merge your DXA report data. As noted in our publication, the time required to reconfigure and/or resave DXA reports using this format is minimal but is a necessary step to successfully use the DXA2.
+### Can I name my scans whatever I want? 
+
+No. The patient or participant ID’s can be any alphanumeric sequence but cannot contain spaces. The naming format for each DXA report is PatientID_Visit#_ScanType. This format is how the DXA2 will correctly identify, transform, and merge your DXA report data. As noted in our publication, the time required to reconfigure and/or resave DXA reports using this format is minimal but is a necessary step to successfully use the DXA2.
 
 I did a scan not listed in Table 1 and don’t know how to save it. The DXA machine has a variety of capabilities (e.g. aortic calcification) not listed in Table 1 in the instructions. If this is the case, please email the administrator at DXA2@health.missouri.edu and they will work with you directly. 
 
