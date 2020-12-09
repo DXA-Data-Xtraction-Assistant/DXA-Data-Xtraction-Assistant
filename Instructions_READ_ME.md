@@ -17,6 +17,8 @@ A software used to convert DXA output from xps format into csv files.
 * [Troubleshooting/FAQ’s](#TroubleshootingFAQs)
     * [Formatting and Exporting your DXA scan reports](#Formatting-and-exporting-your-DXA-scan-reports)
         * [Can I name my scans whatever I want?](#Can-I-name-my-scans-whatever-I-want)
+        * [I did a scan not listed in Table 1 and don’t know how to save it.](#I-did-a-scan-not-listed-in-Table-1-and-dont-know-how-to-save-it)
+        * [Why can’t I just do Steps 1-3 on my DXA computer?](#Why-cant-I-just-do-Steps-13-on-my-DXA-computer?)
 
 
 
@@ -87,11 +89,15 @@ Tips for success:
 
 ### Can I name my scans whatever I want? 
 
-No. The patient or participant ID’s can be any alphanumeric sequence but cannot contain spaces. The naming format for each DXA report is PatientID_Visit#_ScanType. This format is how the DXA2 will correctly identify, transform, and merge your DXA report data. As noted in our publication, the time required to reconfigure and/or resave DXA reports using this format is minimal but is a necessary step to successfully use the DXA2.
+No. The patient or participant ID's can be any alphanumeric sequence but cannot contain spaces. The naming format for each DXA report is **PatientID\_Visit#\_ScanType**. This format is how the DXA2 will correctly identify, transform, and merge your DXA report data. As noted in our publication, the time required to reconfigure and/or resave DXA reports using this format is minimal but is a necessary step to successfully use the DXA2.
 
-I did a scan not listed in Table 1 and don’t know how to save it. The DXA machine has a variety of capabilities (e.g. aortic calcification) not listed in Table 1 in the instructions. If this is the case, please email the administrator at DXA2@health.missouri.edu and they will work with you directly. 
+### I did a scan not listed in Table 1 and don’t know how to save it. 
 
-Why can’t I just do Steps 1-3 on my DXA computer? Most DXA manufactures discourage users from connecting their DXA computer to the internet. However, if your DXA computer is internet-enabled, you can follow steps 2 and 3 on your DXA computer. If your DXA computer is not connected to the internet, be sure to move all reconfigured and/or renamed DXA reports (.xps or .pdf files) to an external hard drive for transport to your Windows computer of choice.
+The DXA machine has a variety of capabilities (e.g. aortic calcification) not listed in Table 1 in the instructions. If this is the case, please email the administrator at DXA2@health.missouri.edu and they will work with you directly. 
+
+### Why can’t I just do Steps 1-3 on my DXA computer? 
+
+Most DXA manufactures discourage users from connecting their DXA computer to the internet. However, if your DXA computer is internet-enabled, you can follow steps 2 and 3 on your DXA computer. If your DXA computer is not connected to the internet, be sure to move all reconfigured and/or renamed DXA reports (.xps or .pdf files) to an external hard drive for transport to your Windows computer of choice.
 
 Can I share this resource and do I need to pay for something? The DXA2 is free to use and share. The DXA2 was created to save time, eliminate errors, and expand the amount of DXA data available for use without associated increased costs. We encourage you to share the DXA2 with your colleagues. All that we require is that the DXA2 is properly cited when utilizing data extracted using the DXA2 (include our citation). 
 
