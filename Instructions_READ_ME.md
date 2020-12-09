@@ -8,7 +8,7 @@ A software used to convert DXA output from xps format into csv files.
 **Thanks for your interest in using the DXA2. Using the DXA2 for the first time requires three simple steps and we encourage you to read these instructions and watch the corresponding tutorial videos before trying to use the DXA2 for the first time. Links to the three videos can be found here (need links to videos).**
 
 # Content
-*[Step 1: Formatting and exporting your DXA scan reports](#Step-1--Formatting-and-exporting-your-DXA-scan-reports)
+*[Step 1: Formatting and exporting your DXA scan reports](#Step-1:-Formatting-and-exporting-your-DXA-scan-reports)
   - [Installation](#Installation)
   - [DXA Outputs](#DXA-Outputs)
 
@@ -19,7 +19,7 @@ A software used to convert DXA output from xps format into csv files.
 
 
 
-Step 1- Formatting and exporting your DXA scan reports
+Step 1: Formatting and exporting your DXA scan reports
 Different software versions display and organize DXA data differently. At your DXA computer ensure that the DXA reports to be extracted are formatted correctly. This can be accomplished by changing the report configurations, if needed, as shown in the first tutorial video.
 
 Please scroll to find the software version that matches or is closest to what you are using and ensure your reports are configured to match these examples. Each DXA scan report for use in the DXA2 should be saved to an external hard drive as either an xps or .pdf file. Then, you can either transfer the scans from the external hard drive to a location on the computer where the DXA2 application is located (or will be downloaded) or use the DXA2 on the computer and save all outputs to the external hard drive.
