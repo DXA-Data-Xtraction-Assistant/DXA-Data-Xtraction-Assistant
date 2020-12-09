@@ -21,7 +21,7 @@ A software used to convert DXA output from xps format into csv files.
 
 
 
-# Step 1: Formatting and exporting your DXA scan reports
+# Step 1 - Formatting and exporting your DXA scan reports
 
 Different software versions display and organize DXA data differently. At your DXA computer ensure that the DXA reports to be extracted are formatted correctly. This can be accomplished by changing the report configurations, if needed, as shown in the [first tutorial video](https://www.youtube.com/watch?v=IuckTLeyZ0k).
 
