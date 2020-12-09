@@ -48,6 +48,8 @@ The visit number must be a number but there is no limit to the length. For examp
 
 **ScanType**: Lastly, the Scan Type is the suffix that denotes the type of DXA scan report. See the suffix name for each type of DXA report in Table 1 below. 
 
+*Table 1: Guide for how to rename DXA reports for use with DXA2. *
+
 | Scan Type	| Main Report	| Needed file name format	| Enhanced Report	| Needed file name format|
 |---|---|---|---|---|
 |Total Body	| Total Body Densitometry	| PatientID\_visit#\_Bone	| Total Body Densitometry Enhanced Analysis	| PatientID\_visit#\_BoneExt |
@@ -122,6 +124,9 @@ If this is the case, try reopening the DXA2 by right clicking and selecting "Run
 ### I can’t find the download file (*.exe* file). 
 
 Navigate to your downloads folder and search there. If the DXA2 is not located there, return to the GitHub site and retry downloading. Ensure you don’t have any pop-up blockers inhibiting the download.
+
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
 ## Using the DXA2 application
 
