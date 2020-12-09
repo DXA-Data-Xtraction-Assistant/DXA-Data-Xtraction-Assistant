@@ -9,17 +9,14 @@ A software used to convert DXA output from xps format into csv files.
 
 # Content
 *[Step 1: Formatting and exporting your DXA scan reports](#Step-1-Formatting-and-exporting-your-DXA-scan-reports)
-  - [Installation](#Installation)
-  - [DXA Outputs](#DXA-Outputs)
-
-*[Usage](#Usage)
-  - [Select Type of DXA Scanner](#Select-Type-of-DXA-Scanner)
-  - [Select Input and Output Paths](#Select-Input-and-Output-Paths)
-  - [Scan Type Selection](#Scan-Type-Selection)
+*[Step 2: Downloading and saving the DXA2 application](#Step-2-Downloading-and-saving-the-DXA2-application)
+*[Step 3: Using the DXA2 application](#Step-3-Using-the-DXA2-application)
+*[Troubleshooting/FAQ’s](#Troubleshooting/FAQ’s)
 
 
 
 # Step 1 Formatting and exporting your DXA scan reports
+
 Different software versions display and organize DXA data differently. At your DXA computer ensure that the DXA reports to be extracted are formatted correctly. This can be accomplished by changing the report configurations, if needed, as shown in the first tutorial video.
 
 Please scroll to find the software version that matches or is closest to what you are using and ensure your reports are configured to match these examples. Each DXA scan report for use in the DXA2 should be saved to an external hard drive as either an xps or .pdf file. Then, you can either transfer the scans from the external hard drive to a location on the computer where the DXA2 application is located (or will be downloaded) or use the DXA2 on the computer and save all outputs to the external hard drive.
@@ -44,14 +41,17 @@ ScanType: Lastly, the Scan Type is the suffix that denotes the type of DXA scan 
 Insert Table 1 here
 
 
-Step 2 – Downloading and saving the DXA2 application
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+
+# Step 2 Downloading and saving the DXA2 application
 
 DXA2 is a standalone application constructed using Python 3.7.  No other software is required to use the DXA2.  The process to download and initialize the DXA2 can also be viewed using the second tutorial video.
 
 On the main webpage (https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant) click on the DXA2_DOWNLOAD_ME_V1.exe file in the first box and then click the “Download” button near the middle of the screen in the gray box. Once the DXA2 has finished downloading, you will find the application in your “Downloads” folder. The DXA2 can be moved to another location on your computer or hard drive by dragging and dropping (or by using the cut and paste functions). If you have issues, please review the troubleshooting/FAQ’s at the end of these instructions.  
 
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
-Step 3- Using the DXA2 application
+# Step 3 Using the DXA2 application
 
 Once you have successfully downloaded the DXA2, it is time to use it! Double click the DXA2 .exe file (femur icon) or right click and select “Run as Administrator”. The first time you open DXA2, it may take a minute or two to load. After the initial use, the DXA2 will load faster. You will be greeted by an introduction page that provides a link to the GitHub site. We encourage you to read all of these written instructions and view all three tutorial videos prior to using the DXA2. 
 
@@ -62,8 +62,9 @@ Once, you have selected your software version, you will select the input, or fil
 
 Tips for success: 1) Ensure that your input folder ONLY includes the properly configured and formatted DXA reports (.pdf or .xps files). If any of these files are improperly named for use in the DXA2 or if there are other files in the input folder, the DXA2 will not work. 2) It is helpful for the first few times using the DXA2 to have your output file folder empty, prior to transformation and merging, so you can recognize all the output and its organization. 
 
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
-Troubleshooting/FAQ’s
+# Troubleshooting/FAQ’s
 
 Formatting and Exporting your DXA scan reports
 
