@@ -5,7 +5,7 @@ A software used to convert DXA output from xps format into csv files.
 
 ***
 
-**Thanks for your interest in using the DXA2. Using the DXA2 for the first time requires three simple steps and we encourage you to read these instructions and watch the corresponding tutorial videos before trying to use the DXA2 for the first time. Links to the three videos can be found here (need links to videos).**
+**Thanks for your interest in using the DXA2. Using the DXA2 for the first time requires three simple steps and we encourage you to read these instructions and watch the corresponding tutorial videos before trying to use the DXA2 for the first time. Links to the three videos can be found [here](https://www.youtube.com/channel/UC38M4-9BVx899WrRLMhdMOg/featured).**
 
 # Content
 * [Step 1: Formatting and exporting your DXA scan reports](#Step-1-Formatting-and-exporting-your-DXA-scan-reports)
@@ -23,7 +23,7 @@ A software used to convert DXA output from xps format into csv files.
 
 # Step 1: Formatting and exporting your DXA scan reports
 
-Different software versions display and organize DXA data differently. At your DXA computer ensure that the DXA reports to be extracted are formatted correctly. This can be accomplished by changing the report configurations, if needed, as shown in the first tutorial video.
+Different software versions display and organize DXA data differently. At your DXA computer ensure that the DXA reports to be extracted are formatted correctly. This can be accomplished by changing the report configurations, if needed, as shown in the [first tutorial video](https://www.youtube.com/watch?v=IuckTLeyZ0k).
 
 Please scroll to find the software version that matches or is closest to what you are using and ensure your reports are configured to match these examples. Each DXA scan report for use in the DXA2 should be saved to an external hard drive as either an *.xps* or *.pdf* file. Then, you can either transfer the scans from the external hard drive to a location on the computer where the DXA2 application is located (or will be downloaded) or use the DXA2 on the computer and save all outputs to the external hard drive.
 
@@ -63,7 +63,7 @@ The visit number must be a number but there is no limit to the length. For examp
 
 # Step 2: Downloading and saving the DXA2 application
 
-DXA2 is a standalone application constructed using Python 3.7.  No other software is required to use the DXA2.  The process to download and initialize the DXA2 can also be viewed using the second tutorial video.
+DXA2 is a standalone application constructed using Python 3.7.  No other software is required to use the DXA2.  The process to download and initialize the DXA2 can also be viewed using the [second tutorial video](https://www.youtube.com/watch?v=gm8bCx51Q68).
 
 On the [main webpage](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant) click on the *DXA2\_DOWNLOAD\_ME\_V1.exe* file in the first box and then click the "Download" button near the middle of the screen in the gray box. Once the DXA2 has finished downloading, you will find the application in your "Downloads" folder. The DXA2 can be moved to another location on your computer or hard drive by dragging and dropping (or by using the cut and paste functions). If you have issues, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) at the end of these instructions.  
 
@@ -72,11 +72,11 @@ On the [main webpage](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-X
 
 # Step 3: Using the DXA2 application
 
-Once you have successfully downloaded the DXA2, it is time to use it! Double click the DXA2 .exe file (femur icon) or right click and select "Run as Administrator". The first time you open DXA2, it may take a minute or two to load. After the initial use, the DXA2 will load faster. You will be greeted by an introduction page that provides a link to the GitHub site. We encourage you to read all of these written instructions and view all three tutorial videos prior to using the DXA2. 
+Once you have successfully downloaded the DXA2, it is time to use it! Double click the DXA2 .exe file (femur icon) or right click and select "Run as Administrator". The first time you open DXA2, it may take a minute or two to load. After the initial use, the DXA2 will load faster. You will be greeted by an introduction page that provides a link to the GitHub site. We encourage you to read all of these written instructions and [view all three tutorial videos](https://www.youtube.com/channel/UC38M4-9BVx899WrRLMhdMOg/featured) prior to using the DXA2. 
 
 Although the DXA2 is free, the developers request that users cite the DXA2 in their publications using the following citation:( **Include citation here** ). After selecting "I agree", you will be prompted to select the manufacturer and the software version for your DXA machine. As noted in the DXA2, if you do not see the specific software version for your DXA machine, please try all the other software versions first. 
 
-Once, you have selected your software version, you will select the input, or file path to your properly saved DXA reports, and the output folder, or file path for where the extracted data should be saved. Once you have selected the input folder, output folder, and clicked "transform", you need to select what types of DXA reports you have available and would like to extract data from. After selecting these using the checkboxes, select "merge". After this has been completed, the final screen will thank you for using the DXA2 and will remind users to cite our work. If you have any issues with using the DXA2, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) below or the third tutorial video ( **need links** ).
+Once, you have selected your software version, you will select the input, or file path to your properly saved DXA reports, and the output folder, or file path for where the extracted data should be saved. Once you have selected the input folder, output folder, and clicked "transform", you need to select what types of DXA reports you have available and would like to extract data from. After selecting these using the checkboxes, select "merge". After this has been completed, the final screen will thank you for using the DXA2 and will remind users to cite our work. If you have any issues with using the DXA2, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) below or the [third tutorial video](https://www.youtube.com/watch?v=UHlfqY1lvfI).
 
 Tips for success: 
 1. Ensure that your input folder **ONLY** includes the properly configured and formatted DXA reports (*.pdf* or *.xps* files). If any of these files are improperly named for use in the DXA2 or if there are other files in the input folder, the DXA2 will not work. 
