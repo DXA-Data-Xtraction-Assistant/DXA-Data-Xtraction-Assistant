@@ -28,7 +28,7 @@ Different software versions display and organize DXA data differently. At your D
 Please scroll to find the software version that matches or is closest to what you are using and ensure your reports are configured to match these examples. Each DXA scan report for use in the DXA<sup>2</sup> should be saved to an external hard drive as either an *.xps* or *.pdf* file. Then, you can either transfer the scans from the external hard drive to a location on the computer where the DXA<sup>2</sup> application is located (or will be downloaded) or use the DXA<sup>2</sup> on the computer and save all outputs to the external hard drive.
 
 * GE
-  * [GE Prodigy – enCORE v.12](/DXA scan report examples/GE enCORE v 12 outputs.pdf)
+  * [GE Prodigy – enCORE v.12](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/GE%20enCORE%20v%2012%20outputs.pdf)
   * GE Prodigy – enCORE v.16      
   * GE iDXA – enCORE v.17 & 18
 * Hologic Horizon – Apex v 5.5
