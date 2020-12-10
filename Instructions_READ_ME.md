@@ -29,10 +29,10 @@ Please scroll to find the software version that matches or is closest to what yo
 
 * GE
   * [GE Prodigy – enCORE v.12](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/GE%20enCORE%20v%2012%20outputs.pdf)
-  * GE Prodigy – enCORE v.16      
-  * GE iDXA – enCORE v.17 & 18
-* Hologic Horizon – Apex v 5.5
-* Norland ELITE or XR-800 – Illuminatus v. 4.7.5
+  * [GE Prodigy – enCORE v.16](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/GE%20enCORE%20v%2016%20outputs.pdf) 
+  * [GE iDXA – enCORE v.17 & 18](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/GE%20iDXA%20enCORE%20v%2017%20%26%2018%20outputs.pdf)
+* [Hologic Horizon – Apex v 5.5](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/Hologic%20Horizon%20Apex%20v%205.5%20outputs.pdf)
+* [Norland ELITE or XR-800 – Illuminatus v. 4.7.5](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/blob/master/DXA%20scan%20report%20examples/Norland%20Elite%20and%20XR-800%20Illuminatus%20v%204.7.5%20%20outputs.pdf)
 
 After your reports have been configured, the DXA reports should be saved using the following file naming convention: 
 
