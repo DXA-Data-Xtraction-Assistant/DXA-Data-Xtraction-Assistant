@@ -1,1 +1,2 @@
 *.exe filter=lfs diff=lfs merge=lfs -text
+DXA2_DOWNLOAD_ME_V1_3.exe filter=lfs diff=lfs merge=lfs -text
