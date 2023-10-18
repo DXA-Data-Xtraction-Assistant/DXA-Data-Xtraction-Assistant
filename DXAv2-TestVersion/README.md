@@ -58,7 +58,7 @@ The visit number must be a number but there is no limit to the length. For examp
 | |Total Body Composition	| PatientID\_visit#\_BC	| Total Body Composition Enhanced Analysis	| PatientID\_visit#\_BCExt |
 | Lumbar Spine	| Lumbar Spine Densitometry	| PatientID\_visit#\_LS	| Lumbar Spine Densitometry Enhanced Analysis	| PatientID\_visit#\_LSExt |
 | Proximal Femur	| Dual Total Hip Densitometry |	PatientID\_visit#\_DH	| Dual Total Hip Densitometry Enhanced Analysis	| PatientID\_visit#\_DHExt |
-| Radius	| L or R Radial Densitometry	| PatientID\_visit#\_Rad	| only the left OR the right radial scans can be processed at a time in the application.| |
+| Radius	| L or R Radial Densitometry	| PatientID\_visit#\_Rad	| Not available in the application.| |
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
