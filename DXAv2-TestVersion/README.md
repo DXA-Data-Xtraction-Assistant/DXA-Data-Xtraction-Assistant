@@ -116,6 +116,15 @@ if you do not see the specific software version for your DXA machine, please try
 
 
 
+| DXA machine                              | Total Body Composition | Total Body Densitometry | Lumbar Spine Densitometry | Dual Total Hip Densitometry | L or R Radial Densitometry |
+| ---------------------------------------- | ---------------------- | ------------------------ | ------------------------- | --------------------------- | -------------------------- |
+| GE Prodigy – enCORE v.16                 | :heavy_check_mark:     |                         | :heavy_check_mark:        | :heavy_check_mark:          | :heavy_check_mark:         |
+| GE iDXA – enCORE v.17 & 18               | :heavy_check_mark:     | :heavy_check_mark:      | :heavy_check_mark:        | :heavy_check_mark:          | :heavy_check_mark:         |
+| Hologic Horizon – Apex v 5.5             | :heavy_check_mark:     | :heavy_check_mark:      | :heavy_check_mark:        | :heavy_check_mark:          | :heavy_check_mark:         |
+| Norland ELITE or XR-800 – Illuminatus v. 4.7.5 | :heavy_check_mark:  |                         | :heavy_check_mark:        | :heavy_check_mark:          | :heavy_check_mark:         |
+
+
+
 Tips for success: 
 1. Ensure that your input folder **ONLY** includes the properly configured and formatted DXA reports (*.pdf* or *.xps* files). If any of these files are improperly named for use in the DXA<sup>2</sup> or if there are other files in the input folder, the DXA<sup>2</sup> will not work. 
 2. It is helpful for the first few times using the DXA<sup>2</sup> to have your output file folder empty, prior to transformation and merging, so you can recognize all the output and its organization. 
