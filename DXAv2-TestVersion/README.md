@@ -54,10 +54,10 @@ The visit number must be a number but there is no limit to the length. For examp
 
 | Scan Type	| Main Report	| Needed file name format	| Enhanced Report	| Needed file name format|
 |---|---|---|---|---|
-|Total Body	| Total Body Densitometry	| PatientID\_visit#\_Bone	| Total Body Densitometry Enhanced Analysis	| PatientID\_visit#\_BoneExt |
-| |Total Body Composition	| PatientID\_visit#\_BC	| Total Body Composition Enhanced Analysis	| PatientID\_visit#\_BCExt |
-| Lumbar Spine	| Lumbar Spine Densitometry	| PatientID\_visit#\_LS	| Lumbar Spine Densitometry Enhanced Analysis	| PatientID\_visit#\_LSExt |
-| Proximal Femur	| Dual Total Hip Densitometry |	PatientID\_visit#\_DH	| Dual Total Hip Densitometry Enhanced Analysis	| PatientID\_visit#\_DHExt |
+|Total Body	| Total Body Densitometry	| PatientID\_visit#\_Bone	| Total Body Densitometry Enhanced Analysis	| PatientID\_visit#\_Boneext |
+| |Total Body Composition	| PatientID\_visit#\_BC	| Total Body Composition Enhanced Analysis	| PatientID\_visit#\_BCext |
+| Lumbar Spine	| Lumbar Spine Densitometry	| PatientID\_visit#\_LS	| Lumbar Spine Densitometry Enhanced Analysis	| PatientID\_visit#\_LSext |
+| Proximal Femur	| Dual Total Hip Densitometry |	PatientID\_visit#\_DH	| Dual Total Hip Densitometry Enhanced Analysis	| PatientID\_visit#\_DHext |
 | Radius	| L or R Radial Densitometry	| PatientID\_visit#\_Rad	| Not available in the application.| |
 
 
@@ -80,7 +80,40 @@ Although the DXA<sup>2</sup> is free, the developers request that users cite the
 
 You will first need to select the input, or file path to your properly saved DXA reports, and the output folder, or file path for where the extracted data should be saved. Once you have selected the input folder, output folder, you need to select the software version of your DXA machine and click "transform". After this has been completed, the final screen will thank you for using the DXA<sup>2</sup> and will remind users to cite our work. If you have any issues with using the DXA<sup>2</sup>, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) below or the [third tutorial video](NEWLINK).
 
-if you do not see the specific software version for your DXA machine, please try the option "Customized" and upload your own template file by clicking the button "Template File". See [here](TEMPLATE) for more details.
+if you do not see the specific software version for your DXA machine, please try the option "Customized" and upload your own template file by clicking the button "Template File". The default inputs for each DXA machine are as follows. See [here](TEMPLATE) for more details.
+
+*Table 2: Default inputs for each DXA machine.*
+
+| DXA machine	| Scan Type	|
+|---|---|---|---|---|
+| GE Prodigy – enCORE v.16 | BCext |
+|  | Boneext |
+|  | DH |
+|  | DHext |
+|  | LH |
+|  | RH |
+|  | LSext |
+|  | Rad |
+| GE iDXA – enCORE v.17 & 18 | BCext |
+|  | Bone |
+|  | DH |
+|  | LH |
+|  | RH |
+|  | LS |
+|  | Rad |
+| Hologic Horizon – Apex v 5.5 | BC |
+|  | BCext |
+|  | Bone |
+|  | DH |
+|  | DHext |
+|  | LS |
+|  | Rad |
+| Norland ELITE or XR-800 – Illuminatus v. 4.7.5 | BC |
+|  | Bone |
+|  | DH |
+|  | LS |
+|  | Rad |
+
 
 
 Tips for success: 
