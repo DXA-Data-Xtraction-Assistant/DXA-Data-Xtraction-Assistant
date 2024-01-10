@@ -84,37 +84,6 @@ if you do not see the specific software version for your DXA machine, please try
 
 *Table 2: Default inputs for each DXA machine.*
 
-| DXA machine	| Scan Type	|
-|---|---|
-| GE Prodigy – enCORE v.16 | BCext |
-|  | Boneext |
-|  | DH |
-|  | DHext |
-|  | LH |
-|  | RH |
-|  | LSext |
-|  | Rad |
-| GE iDXA – enCORE v.17 & 18 | BCext |
-|  | Bone |
-|  | DH |
-|  | LH |
-|  | RH |
-|  | LS |
-|  | Rad |
-| Hologic Horizon – Apex v 5.5 | BC |
-|  | BCext |
-|  | Bone |
-|  | DH |
-|  | DHext |
-|  | LS |
-|  | Rad |
-| Norland ELITE or XR-800 – Illuminatus v. 4.7.5 | BC |
-|  | Bone |
-|  | DH |
-|  | LS |
-|  | Rad |
-
-
 | DXA machine | BC | BCext | Bone | Boneext | LS | LSext | DH | DHext | LH | RH | Rad |
 | ---------------------------------------- | ---------------------- | --------------------- | ------------------------ | --------------------- | ------------------------- | --------------------- | --------------------------- | ------------------------ | ------------------------ | ------------------------ | -------------------------- |
 | GE Prodigy – enCORE v.16                 |                       | :heavy_check_mark:   |                         | :heavy_check_mark:   |                         | :heavy_check_mark:   | :heavy_check_mark: | :heavy_check_mark:      | :heavy_check_mark:      | :heavy_check_mark:      | :heavy_check_mark:         |
