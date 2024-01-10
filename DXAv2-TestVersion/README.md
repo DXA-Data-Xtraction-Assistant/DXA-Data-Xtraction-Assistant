@@ -116,12 +116,14 @@ if you do not see the specific software version for your DXA machine, please try
 
 
 
-| DXA machine                              | Total Body Composition | Total Body Densitometry | Lumbar Spine Densitometry | Dual Total Hip Densitometry | L or R Radial Densitometry |
-| ---------------------------------------- | ---------------------- | ------------------------ | ------------------------- | --------------------------- | -------------------------- |
-| GE Prodigy – enCORE v.16                 | :heavy_check_mark:     |                         | :heavy_check_mark:        | :heavy_check_mark:          | :heavy_check_mark:         |
-| GE iDXA – enCORE v.17 & 18               | :heavy_check_mark:     | :heavy_check_mark:      | :heavy_check_mark:        | :heavy_check_mark:          | :heavy_check_mark:         |
-| Hologic Horizon – Apex v 5.5             | :heavy_check_mark:     | :heavy_check_mark:      | :heavy_check_mark:        | :heavy_check_mark:          | :heavy_check_mark:         |
-| Norland ELITE or XR-800 – Illuminatus v. 4.7.5 | :heavy_check_mark:  |                         | :heavy_check_mark:        | :heavy_check_mark:          | :heavy_check_mark:         |
+| DXA machine                              | Total Body Composition |                       | Total Body Densitometry |                       | Lumbar Spine Densitometry |                       | Dual Total Hip Densitometry |                          |                          |                          | L or R Radial Densitometry |
+| ---------------------------------------- | ---------------------- | --------------------- | ------------------------ | --------------------- | ------------------------- | --------------------- | --------------------------- | ------------------------ | ------------------------ | ------------------------ | -------------------------- |
+|  | BC | BCext | Bone | Boneext | LS | LSext | DH | DHext | LH | RH | Rad |
+| GE Prodigy – enCORE v.16                 |                       | :heavy_check_mark:   |                         | :heavy_check_mark:   |                         | :heavy_check_mark:   |                           | :heavy_check_mark:      | :heavy_check_mark:      | :heavy_check_mark:      | :heavy_check_mark:         |
+| GE iDXA – enCORE v.17 & 18               |                       | :heavy_check_mark:   | :heavy_check_mark:      |                       | :heavy_check_mark:      |                       |                           | :heavy_check_mark:      | :heavy_check_mark:      | :heavy_check_mark:      | :heavy_check_mark:         |
+| Hologic Horizon – Apex v 5.5             | :heavy_check_mark:    | :heavy_check_mark:   | :heavy_check_mark:      |                       | :heavy_check_mark:      |                       | :heavy_check_mark:        |                       |                       |                       | :heavy_check_mark:         |
+| Norland ELITE or XR-800 – Illuminatus v. 4.7.5 | :heavy_check_mark: |                       | :heavy_check_mark:      |                       | :heavy_check_mark:      |                       | :heavy_check_mark:        |                       |                       |                       | :heavy_check_mark:         |
+
 
 
 
