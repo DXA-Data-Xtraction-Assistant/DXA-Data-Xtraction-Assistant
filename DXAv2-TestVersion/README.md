@@ -85,7 +85,7 @@ if you do not see the specific software version for your DXA machine, please try
 *Table 2: Default inputs for each DXA machine.*
 
 | DXA machine	| Scan Type	|
-|---|---|---|---|---|
+|---|---|
 | GE Prodigy – enCORE v.16 | BCext |
 |  | Boneext |
 |  | DH |
