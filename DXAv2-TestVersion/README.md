@@ -165,7 +165,7 @@ If you have data that is not extracted by the DXA<sup>2</sup>, please email the 
 
 ### What should I do if I encounter popup windows below when opening the output file in Excel?
 
-[Figure popup](Figure/Output_error.jpg)
+![Figure popup](Figure/Output_error.jpg)
 
 This issue happens when the outputs contain a number over 12 digit. When you see this, choose “Convert” and then use file.  
 
