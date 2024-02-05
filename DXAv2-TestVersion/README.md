@@ -163,5 +163,13 @@ In your output folder, you will find a data dictionary that lists all variables 
 ### I need data from a report not listed. 
 If you have data that is not extracted by the DXA<sup>2</sup>, please email the DXA<sup>2</sup> administrator at DXA2@health.missouri.edu and we will work with you directly. 
 
+### What should I do if I encounter popup windows below when opening the output file in Excel?
+
+[Figure popup](Figure/Output_error.jpg)
+
+This issue happens when the outputs contain a number over 12 digit. When you see this, choose “Convert” and then use file.  
+
+See [this page](https://insider.microsoft365.com/en-us/blog/control-data-conversions-in-excel) for more details about controlling data conversions in Excel.
+
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
