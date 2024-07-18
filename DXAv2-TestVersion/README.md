@@ -65,7 +65,7 @@ The visit number must be a number but there is no limit to the length. For examp
 
 # Step 2: Downloading and saving the DXA<sup>2</sup> application
 
-DXA<sup>2</sup> is a standalone application constructed using Python 3.7.  No other software is required to use the DXA<sup>2</sup>.  The process to download and initialize the DXA<sup>2</sup> can also be viewed using the [NEW second tutorial video](NEWLINK).
+DXA<sup>2</sup> is a standalone application constructed using Python 3.7.  No other software is required to use the DXA<sup>2</sup>.  The process to download and initialize the DXA<sup>2</sup> can also be viewed using the [second tutorial video](https://www.youtube.com/watch?v=gm8bCx51Q68).
 
 On the [main webpage](NEWLINK) click on the *DXA<sup>2</sup>\_DOWNLOAD\_ME\_V1_1.exe* file in the first box and then click the "Download" button near the middle of the screen in the gray box. Once the DXA<sup>2</sup> has finished downloading, you will find the application in your "Downloads" folder. The DXA<sup>2</sup> can be moved to another location on your computer or hard drive by dragging and dropping (or by using the cut and paste functions). If you have issues, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) at the end of these instructions.  
 
