@@ -20,7 +20,7 @@ A software used to convert DXA output from xps or pdf format into csv files.
     * [Downloading and Saving DXA<sup>2</sup>](#Downloading-and-Saving-DXA2)
     * [Using the DXA<sup>2</sup> application](#Using-the-DXA2-application)
     
-* [Links Tutorial Videos](NEWLINK)
+* [Links to Tutorial Videos](#Links-to-Tutorial-Videos)
 
 
 
@@ -76,11 +76,12 @@ On the [main webpage](NEWLINK) click on the *DXA<sup>2</sup>\_DOWNLOAD\_ME\_V1_1
 
 Once you have successfully downloaded the DXA<sup>2</sup>, it is time to use it! Double click the DXA<sup>2</sup> .exe file (femur icon) or right click and select "Run as Administrator". The first time you open DXA<sup>2</sup>, it may take a minute or two to load. After the initial use, the DXA<sup>2</sup> will load faster. You will be greeted by an introduction page that provides a link to the GitHub site. We encourage you to read all of these written instructions and [view all three tutorial videos](NEWLINK) prior to using the DXA<sup>2</sup>. 
 
-Although the DXA<sup>2</sup> is free, the developers request that users cite the DXA<sup>2</sup> in their publications using the following citation:( **Include citation here** ). After selecting "I agree", you will be prompted to select the manufacturer and the software version for your DXA machine. As noted in the DXA<sup>2</sup>, 
+Although the DXA<sup>2</sup> is free, the developers request that users cite the DXA<sup>2</sup> in their publications using the following citation:( **Baker, Breanne S., Jinpu Li, and Emily V. Leary. "DXA2: An automated program for extraction of Dual-Energy X-Ray Absorptiometry data." Journal of Clinical Densitometry 24, no. 4 (2021): 658-662.** ). After selecting "I agree", you will be prompted to select the manufacturer and the software version for your DXA machine. As noted in the DXA<sup>2</sup>, 
 
-You will first need to select the input, or file path to your properly saved DXA reports, and the output folder, or file path for where the extracted data should be saved. Once you have selected the input folder, output folder, you need to select the software version of your DXA machine and click "transform". After this has been completed, the final screen will thank you for using the DXA<sup>2</sup> and will remind users to cite our work. If you have any issues with using the DXA<sup>2</sup>, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) below or the [third tutorial video](NEWLINK).
+You will first need to select the software version of your DXA machine. The default inputs for each DXA machine are as follows. See [here](TEMPLATE) for more details. If you do not see the specific software version for your DXA machine, please try the option "Customized" and upload your own template file by clicking the button "Template File". You can find the instruction on **how to create your own template** [here](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/tree/master/DXAv2-TestVersion/Template).
 
-if you do not see the specific software version for your DXA machine, please try the option "Customized" and upload your own template file by clicking the button "Template File". The default inputs for each DXA machine are as follows. See [here](TEMPLATE) for more details.
+Once you have specified the software version of your DXA machine, you can select the input, or file path to your properly saved DXA reports, and the output folder, or file path for where the extracted data should be saved. Then click "transform" and the data will be extracted. The final screen will thank you for using the DXA<sup>2</sup> and will remind users to cite our work. If you have any issues with using the DXA<sup>2</sup>, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) below or the [third tutorial video](NEWLINK).
+
 
 *Table 2: Default inputs for each DXA machine.*
 
@@ -118,7 +119,7 @@ Most DXA manufactures discourage users from connecting their DXA computer to the
 
 ### Can I share this resource and do I need to pay for something? 
 
-The DXA<sup>2</sup> is free to use and share. The DXA<sup>2</sup> was created to save time, eliminate errors, and expand the amount of DXA data available for use without associated increased costs. We encourage you to share the DXA<sup>2</sup> with your colleagues. All that we require is that the DXA<sup>2</sup> is properly cited when utilizing data extracted using the DXA<sup>2</sup> ( **include our citation** ). 
+The DXA<sup>2</sup> is free to use and share. The DXA<sup>2</sup> was created to save time, eliminate errors, and expand the amount of DXA data available for use without associated increased costs. We encourage you to share the DXA<sup>2</sup> with your colleagues. All that we require is that the DXA<sup>2</sup> is properly cited when utilizing data extracted using the DXA<sup>2</sup> ( **Baker, Breanne S., Jinpu Li, and Emily V. Leary. "DXA2: An automated program for extraction of Dual-Energy X-Ray Absorptiometry data." Journal of Clinical Densitometry 24, no. 4 (2021): 658-662.** ). 
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
@@ -172,4 +173,20 @@ This issue happens when the outputs contain a number over 12 digit. When you see
 See [this page](https://insider.microsoft365.com/en-us/blog/control-data-conversions-in-excel) for more details about controlling data conversions in Excel.
 
 
+
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+
+# Links to Tutorial Videos
+
+[Tutorial video 1: How to configure and export the DXA reports to be in the format needed for use with the DXA2 application.](https://www.youtube.com/watch?v=IuckTLeyZ0k)
+
+[Tutorial video 2: How to navigate the GitHub site and download the DXA2 application to your computer.](https://www.youtube.com/watch?v=gm8bCx51Q68)
+
+[Tutorial video 3: How to use the DXA Data Xtraction Assistant application that you downloaded to your computer in tutorial video # 2.](NEWLINK)
+
+
+
+###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
+
+
+
