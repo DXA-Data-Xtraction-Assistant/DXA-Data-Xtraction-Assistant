@@ -67,7 +67,7 @@ The visit number must be a number but there is no limit to the length. For examp
 
 DXA<sup>2</sup> is a standalone application constructed using Python 3.7.  No other software is required to use the DXA<sup>2</sup>.  The process to download and initialize the DXA<sup>2</sup> can also be viewed using the [Tutorial Video 2: How to navigate the GitHub site and download the DXA2 application to your computer.](https://www.youtube.com/watch?v=gm8bCx51Q68).
 
-On the [main webpage](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/tree/master/DXAv2-TestVersion) click on the *DXA<sup>2</sup>\_DOWNLOAD\_ME\_V2.exe* file in the first box and then click the "Download" button near the middle of the screen in the gray box. Once the DXA<sup>2</sup> has finished downloading, you will find the application in your "Downloads" folder. The DXA<sup>2</sup> can be moved to another location on your computer or hard drive by dragging and dropping (or by using the cut and paste functions). If you have issues, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) at the end of these instructions.  
+On the [main webpage](#Content) click on the *DXA<sup>2</sup>\_DOWNLOAD\_ME\_V2_1.exe* file in the first box and then click the "Download" button near the middle of the screen in the gray box. Once the DXA<sup>2</sup> has finished downloading, you will find the application in your "Downloads" folder. The DXA<sup>2</sup> can be moved to another location on your computer or hard drive by dragging and dropping (or by using the cut and paste functions). If you have issues, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) at the end of these instructions.  
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
@@ -80,7 +80,7 @@ Although the DXA<sup>2</sup> is free, the developers request that users cite the
 
 You will first need to select the software version of your DXA machine. The default inputs for each DXA machine are as follows. See [here](TEMPLATE) for more details. If you do not see the specific software version for your DXA machine, please try the option "Customized" and upload your own template file by clicking the button "Template File". You can find the instruction on **how to create your own template** [here](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/tree/master/DXAv2-TestVersion/Template).
 
-Once you have specified the software version of your DXA machine, you can select the input, or file path to your properly saved DXA reports, and the output folder, or file path for where the extracted data should be saved. Then click "transform" and the data will be extracted. The final screen will thank you for using the DXA<sup>2</sup> and will remind users to cite our work. If you have any issues with using the DXA<sup>2</sup>, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) below or the [third tutorial video](NEWLINK).
+Once you have specified the software version of your DXA machine, you can select the input, or file path to your properly saved DXA reports, and the output folder, or file path for where the extracted data should be saved. Then click "transform" and the data will be extracted. The final screen will thank you for using the DXA<sup>2</sup> and will remind users to cite our work. If you have any issues with using the DXA<sup>2</sup>, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) below or the [third tutorial video](https://www.youtube.com/watch?v=Ds1bAs0UKUU).
 
 
 *Table 2: Default inputs for each DXA machine.*
@@ -182,7 +182,7 @@ See [this page](https://insider.microsoft365.com/en-us/blog/control-data-convers
 
 [Tutorial video 2: How to navigate the GitHub site and download the DXA2 application to your computer.](https://www.youtube.com/watch?v=gm8bCx51Q68)
 
-[Tutorial video 3: How to use the DXA Data Xtraction Assistant application that you downloaded to your computer in tutorial video # 2.](NEWLINK)
+[Tutorial video 3: How to use the DXA Data Xtraction Assistant application that you downloaded to your computer in tutorial video # 2.](https://www.youtube.com/watch?v=Ds1bAs0UKUU)
 
 
 
