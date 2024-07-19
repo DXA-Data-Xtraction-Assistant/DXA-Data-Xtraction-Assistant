@@ -6,7 +6,7 @@ A software used to convert DXA output from xps or pdf format into csv files.
 
 ***
 
-**Thanks for your interest in using the DXA<sup>2</sup>. Using the DXA<sup>2</sup> for the first time requires three simple steps and we encourage you to read these instructions and watch the corresponding tutorial videos before trying to use the DXA<sup>2</sup> for the first time. Links to the three videos can be found [NEWVIDEO](NEWLINK).**
+**Thanks for your interest in using the DXA<sup>2</sup>. Using the DXA<sup>2</sup> for the first time requires three simple steps and we encourage you to read these instructions and watch the corresponding tutorial videos before trying to use the DXA<sup>2</sup> for the first time. [Links](#Links-to-Tutorial-Videos) to the three videos can be found below.**
 
 # Content
 * [Step 1: Formatting and exporting your DXA scan reports](#Step-1-Formatting-and-exporting-your-DXA-scan-reports)
@@ -26,7 +26,7 @@ A software used to convert DXA output from xps or pdf format into csv files.
 
 # Step 1: Formatting and exporting your DXA scan reports
 
-Different software versions display and organize DXA data differently. At your DXA computer ensure that the DXA reports to be extracted are formatted correctly. This can be accomplished by changing the report configurations, if needed, as shown in the [first tutorial video](https://www.youtube.com/watch?v=IuckTLeyZ0k).
+Different software versions display and organize DXA data differently. At your DXA computer ensure that the DXA reports to be extracted are formatted correctly. This can be accomplished by changing the report configurations, if needed, as shown in the [Tutorial Video 1: How to configure and export the DXA reports to be in the format needed for use with the DXA2 application.](https://www.youtube.com/watch?v=IuckTLeyZ0k).
 
 Please scroll to find the software version that matches or is closest to what you are using and ensure your reports are configured to match these examples. Each DXA scan report for use in the DXA<sup>2</sup> should be saved to an external hard drive as either an *.xps* or *.pdf* file. Then, you can either transfer the scans from the external hard drive to a location on the computer where the DXA<sup>2</sup> application is located (or will be downloaded) or use the DXA<sup>2</sup> on the computer and save all outputs to the external hard drive.
 
@@ -65,16 +65,16 @@ The visit number must be a number but there is no limit to the length. For examp
 
 # Step 2: Downloading and saving the DXA<sup>2</sup> application
 
-DXA<sup>2</sup> is a standalone application constructed using Python 3.7.  No other software is required to use the DXA<sup>2</sup>.  The process to download and initialize the DXA<sup>2</sup> can also be viewed using the [second tutorial video](https://www.youtube.com/watch?v=gm8bCx51Q68).
+DXA<sup>2</sup> is a standalone application constructed using Python 3.7.  No other software is required to use the DXA<sup>2</sup>.  The process to download and initialize the DXA<sup>2</sup> can also be viewed using the [Tutorial Video 2: How to navigate the GitHub site and download the DXA2 application to your computer.](https://www.youtube.com/watch?v=gm8bCx51Q68).
 
-On the [main webpage](NEWLINK) click on the *DXA<sup>2</sup>\_DOWNLOAD\_ME\_V1_1.exe* file in the first box and then click the "Download" button near the middle of the screen in the gray box. Once the DXA<sup>2</sup> has finished downloading, you will find the application in your "Downloads" folder. The DXA<sup>2</sup> can be moved to another location on your computer or hard drive by dragging and dropping (or by using the cut and paste functions). If you have issues, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) at the end of these instructions.  
+On the [main webpage](https://github.com/DXA-Data-Xtraction-Assistant/DXA-Data-Xtraction-Assistant/tree/master/DXAv2-TestVersion) click on the *DXA<sup>2</sup>\_DOWNLOAD\_ME\_V2.exe* file in the first box and then click the "Download" button near the middle of the screen in the gray box. Once the DXA<sup>2</sup> has finished downloading, you will find the application in your "Downloads" folder. The DXA<sup>2</sup> can be moved to another location on your computer or hard drive by dragging and dropping (or by using the cut and paste functions). If you have issues, please review the [Troubleshooting/FAQ’s](#TroubleshootingFAQs) at the end of these instructions.  
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
 
 # Step 3: Using the DXA<sup>2</sup> application
 
-Once you have successfully downloaded the DXA<sup>2</sup>, it is time to use it! Double click the DXA<sup>2</sup> .exe file (femur icon) or right click and select "Run as Administrator". The first time you open DXA<sup>2</sup>, it may take a minute or two to load. After the initial use, the DXA<sup>2</sup> will load faster. You will be greeted by an introduction page that provides a link to the GitHub site. We encourage you to read all of these written instructions and [view all three tutorial videos](NEWLINK) prior to using the DXA<sup>2</sup>. 
+Once you have successfully downloaded the DXA<sup>2</sup>, it is time to use it! Double click the DXA<sup>2</sup> .exe file (femur icon) or right click and select "Run as Administrator". The first time you open DXA<sup>2</sup>, it may take a minute or two to load. After the initial use, the DXA<sup>2</sup> will load faster. You will be greeted by an introduction page that provides a link to the GitHub site. We encourage you to read all of these written instructions and [view all three tutorial videos]((#Links-to-Tutorial-Videos)) prior to using the DXA<sup>2</sup>. 
 
 Although the DXA<sup>2</sup> is free, the developers request that users cite the DXA<sup>2</sup> in their publications using the following citation:( **Baker, Breanne S., Jinpu Li, and Emily V. Leary. "DXA2: An automated program for extraction of Dual-Energy X-Ray Absorptiometry data." Journal of Clinical Densitometry 24, no. 4 (2021): 658-662.** ). After selecting "I agree", you will be prompted to select the manufacturer and the software version for your DXA machine. As noted in the DXA<sup>2</sup>, 
 
