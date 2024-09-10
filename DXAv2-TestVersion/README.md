@@ -151,7 +151,7 @@ Navigate to your downloads folder and search there. If the DXA<sup>2</sup> is no
 
 This can mean one of two things. 
 First, double check that you **ONLY** have *.pdf* or *.xps* files in the input folder and check that all DXA scans are named using the correct format for the DXA<sup>2</sup> (see Table 1). Even one mistake in the file name will prevent the DXA<sup>2</sup> from working. 
-Second, if your reports are not configured properly or you selected the wrong manufacture/software version for your reports, the DXA<sup>2</sup> won't be able to read your DXA scans. As noted in the instructions and the tutorial videos, if your DXA software version is not listed, please email the DXA<sup>2</sup> administrator at DXA2@health.missouri.edu and we will work with you directly. 
+Second, if your reports are not configured properly or you selected the wrong manufacture/software version for your reports, the DXA<sup>2</sup> won't be able to read your DXA scans. Simply renaming or converting the files to *.pdf* or *.xps* formats might cause extraction failures. As noted in the instructions and the tutorial videos, if your DXA software version is not listed, please email the DXA<sup>2</sup> administrator at DXA2@health.missouri.edu and we will work with you directly. 
 
 ### In my data files (either merged or abbreviated), I am missing data. 
 
@@ -172,6 +172,11 @@ This issue happens when the outputs contain a number over 12 digit. When you see
 
 See [this page](https://insider.microsoft365.com/en-us/blog/control-data-conversions-in-excel) for more details about controlling data conversions in Excel.
 
+### Why is DXA<sup>2</sup>  not extracting single-row tables from my reports?
+DXA<sup>2</sup> application currently cannot extract single-row tables because it relies on text extraction from PDF/XPS files, which doesn’t retain table structures. Identifying small tables is challenging due to the presence of redundant information like scan dates and page numbers. While some tools are being developed to extract tables while retaining their structure, no reliable solution exists at this time. We will continue to monitor developments of these tools and address this issue in future updates.
+
+### Why does DXA<sup>2</sup> fail to extract data from selected regions/ part of the report?
+DXA<sup>2</sup> application expects region names to be text (e.g., "Arm," "Trunk"). When numeric labels are used for regions, the software may incorrectly merge rows. Renaming the regions as "Region1," "Region2," etc., should resolve this issue. Additionally, if different subjects have varying numbers of regions, the resulting data may be incompatible for merging, causing the process to fail.
 
 
 ###### <p dir='rtl' align='right'>[Back to Top](#Content)</p>
